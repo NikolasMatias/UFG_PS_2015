@@ -10,7 +10,7 @@ Processo de software 2015
 * 3. [Descriçao de Projeto e perspectiva](#3-descriçao-de-projeto-e-perspectiva)
 * 4. [Escopo do projeto](#4-escopo-do-projeto)
     * 4.1. [Premissas](#41-premissas)
-    * 4.2. [Restrições](#42-pestrições)
+    * 4.2. [Restrições](#42-restrições)
     * 4.3. [Monitoramento](#43-monitoramento)
     * 4.4. [Ciclo de Vida e Metodologia](#44-ciclo-de-vida-e-metodologia)
     * 4.5. [Cronograma, Custos, Marcos e Entregáveis](#45-cronograma-custos-marcos-e-entregáveis)
