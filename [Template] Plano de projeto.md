@@ -76,6 +76,12 @@ Processo de software 2015
 ----------------------------
 [_Descrição geral de qual o objetivo do controle de mudanças_]
 
+6. Equipe, Responsabilidades e Competências
+----------------------------
+Integrante | E-mail |  | Capacidades
+-----------|-----------
+[nome completo] | [contato] | [Link do Linkedin] 
+
 6. Aprovação formal
 ----------------------------
 [_Aprovação formal do plano de projeto por todos os stakeholders_] 
