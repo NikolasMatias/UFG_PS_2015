@@ -78,9 +78,10 @@ Processo de software 2015
 
 6. Equipe, Responsabilidades e Competências
 ----------------------------
-Integrante | E-mail |  | Capacidades
------------|-----------
-[nome completo] | [contato] | [Link do Linkedin] 
+
+Integrante | E-mail | Responsabilidade | Capacidades
+-----------|-----------|----------|-------------
+[nome completo] | [contato] | [função no projeto] | [Link do Linkedin] 
 
 6. Aprovação formal
 ----------------------------
