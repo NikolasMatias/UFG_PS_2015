@@ -56,10 +56,21 @@ Processo de software 2015
 [_Definir um cronograma para o início e fim do projeto, assim como divisões que serão realizadas dentro deste. O custo de produção, os marcos do projeto e o que será entregue em cada etapa do cronograma deve ser levantado ou mencionar a etapa em que será levantado._]
 
 ### 3.6 Análise de Riscos Iniciais
-[_Levantar riscos iniciais, probabilidade de ocorrência e impacto. Descrever como será feito o tratamento do risco, caso ele ocorra. Gerir os riscos durante o projeto, monitorando e gerando relatórios das ocorrências._]
+Risco | Probabilidade de ocorrência | Impacto | Forma de Mitigação
+-----------|-----------|------------|---------------
+Desinteresse do membro | baixa | Alto | Algumas seções de sinuca.
+Membro doente | baixa | Alto | Remanejamento de recursos.
+Queda de energia | baixa | Muito Alto | Remanejamento de recursos.
+Membro não está familiarizado com as tecnologias | Alta | Médio | O membro deverá continuar estudando as tecnologias durante o projeto.
+
+Caso ocorra algum dos riscos, eles deverão ser relatados e corrigidos no relatório de riscos.
 
 ### 3.7 Planejamento da Comunicação
-[_Levantar formas de armazenamento das comunicações importantes e quem poderá realiza-las no decorrer do projeto._]
+Comunicação | Forma de armazenamento
+-----------|-----------
+Grupo do Whatsapp | Exportação dos arquivos de conversa. 
+Reunião via Hangout | Ata de reunião.
+Reunião local | Ata de reunião.
 
 4. Escopo do produto
 -----------------------------
@@ -82,7 +93,13 @@ Processo de software 2015
 
 Integrante | E-mail | Responsabilidade | Capacidades
 -----------|-----------|----------|-------------
-[nome completo] | [contato] | [função no projeto] | [Link do Linkedin] 
+Rony Nogueira | ronynogueiras@gmail.com  | Gerente de Projeto | [Link do Linkedin] 
+Pedro Henrique | pedrohenriquedrim@gmail.com  | Gerente de Projeto | [Link do Linkedin]
+Milton Araújo | calacio.milton@gmail.com   | Gerente de Requisitos | [Link do Linkedin]
+Matheus Vani | matheus.vanii@hotmail.com   | Gerente de Requisitos | [Link do Linkedin]
+Thallisson Lopes | --- | Gerente de Requisitos | [Link do Linkedin]
+Matheus Lima | ---  | Gerente de Qualidade | [Link do Linkedin]
+Nikolas Matias | --- | Gerente de Qualidade | [Link do Linkedin]
 
 8. Aprovação formal
 ----------------------------
