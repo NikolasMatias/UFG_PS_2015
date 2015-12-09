@@ -17,7 +17,6 @@ Processo de software 2015
     * 3.5. [Cronograma, Custos, Marcos e Entregáveis](#35-cronograma-custos-marcos-e-entregáveis)
     * 3.6. [Análise de Riscos Iniciais](#36-análise-de-riscos-iniciais)
     * 3.7. [Planejamento da Comunicação](#37-planejamento-da-comunicação)
-    * 3.8. [Equipe, Responsabilidades e Partes Interessadas](#38-equipe-responsabilidades-e-partes-interessadas)
 * 4. [Escopo do produto](#4-escopo-do-produto)
     * 4.1. [Casos de Uso Iniciais](#41-casos-de-uso-iniciais)
     * 4.2. [Sumário das Capacidades](#42-sumário-das-capacidades)
@@ -60,9 +59,6 @@ Processo de software 2015
 
 ### 3.7 Planejamento da Comunicação
 [_Levantar formas de armazenamento das comunicações importantes e quem poderá realiza-las no decorrer do projeto._]
-
-### 3.8 Equipe, Responsabilidades e Partes Interessadas
-[_Definir pessoal capacitado para cada cargo, dividindo responsabilidades e formas de contato._]
 
 4. Escopo do produto
 -----------------------------
