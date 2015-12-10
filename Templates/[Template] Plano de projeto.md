@@ -64,9 +64,13 @@ Processo de software 2015
 
 ### 2.3 Pontos de controle
 [_Deverão ser definidos também os pontos de controle do projeto. Para essa definição deverá ser levado em conta as características do ciclo de vida e do projeto em que será aplicado._]
+
 [_Seguindo o GPR10 do MPS.BR, é necessário a existência de um alinhamento entre o que está sendo definido e o que está sendo executado. Esses pontos de controle podem ser utilizados para analisar o andamento do projeto._]
+
 [_Seguindo o GPR11 do MPS.BR, caso as metas esperadas não forem atendidas, ajustes deverão ser realizados (bem como uma análise de viabilidade)._]
+
 [_Seguindo o GPR12 do MPS.BR, o plano do projeto deverá ser sempre revisado com todos os interessados de forma a manter o compromisso entre eles._]
+
 [_Seguindo o GPR17 do MPS.BR, revisões são realizadas em marcos do projeto e conforme estabelecido no planejamento._]
 
 
@@ -89,6 +93,7 @@ Processo de software 2015
 
 ### 4.2 Riscos em RH
 [_Nesta seção os riscos existentes para os integrantes deverão ser identificados, bem como seus impactos, probabilidade de ocorrência e prioridades._]
+
 [_Seguindo o GPR2 do MPS.BR, as métricas utilizadas na classificação dos riscos deverão ser especificadas, esse GPR também é aplicado em RH._]
 
 5. Detalhamento de Projeto
@@ -107,15 +112,21 @@ Processo de software 2015
 6. Monitoramento
 ----------------
 [_Linkar os relatórios de monitoramento._]
+
 [_Seguindo o GPR13 do MPS.BR, todos os artefatos do projeto deverão ser monitorados, bem como os custos esperados. O uso de um relatório de monitoramento auxilia nesse GPR._]
+
 [_Seguindo o GPR14 do MPS.BR, os recursos humanos, deverão ser monitorados (por exemplo, realocação de pessoal). O uso de um relatório de monitoramento auxilia nesse GPR._]
+
 [_Seguindo o GPR15 do MPS.BR, os riscos deverão ser monitorados (por exemplo, acréscimo de um risco ou de uma forma de mitigação). O uso de um relatório de  monitoramento auxilia nesse GPR._]
+
 [_Seguindo o GPR16 do MPS.BR, os interessados pelo projeto deverão ser monitorados (por exemplo, mudança no lider da empresa que solicitou o projeto). O uso de um relatório de  monitoramento auxilia nesse GPR._]
 
 7. Manutenção
 -------------
 [_Linkar os relatórios de manutenção._]
+
 [_Seguindo o GPR18 do MPS.BR, os problemas identificados durante o projeto deverão ser monitorados. O uso de um relatório de manutenção auxilia nesse GPR._]
+
 [_Seguindo o GPR19 do MPS.BR, os problemas relatados durante o projeto deverão ser acompanhados até a sua conclusão. O uso de um relatório de manutenção auxilia nesse GPR._]
 
 8. Aprovação formal
