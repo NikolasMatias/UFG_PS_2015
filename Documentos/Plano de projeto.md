@@ -23,22 +23,21 @@ Processo de software 2015
     * 4.1. [Responsábilidades](#41-responsábilidades)
     * 4.2. [Riscos em RH](#42-riscos-em-rh)
 * 5. [Detalhamento de Projeto](#5-detalhamento-de-projeto)
-    * 5.1. [Cronograma](#51-cronograma)
-    * 5.2. [Recursos](#52-recursos)
-    * 5.3. [Pontos de controle](#53-pontos-de-controle)
+    * 5.1. [Estrutura de Projeto](#51-estrutura-de-projeto)
+    * 5.2. [Armazenamento de Artefatos](#52-armazenamento-de-artefatos)
+    * 5.3. [Metricas de Acessibilidade](#53-metricas-de-acessibilidade)
 * 6. [Monitoramento](#6-monitoramento)
 * 7. [Manutenção](#7-manutenção)
 * 8. [Aprovação formal](#6-aprovação-formal)
 
 1. Escopo de Projeto
 ---------------------
-[_Seguindo o GPR1 do MPS.BR, o escopo do projeto deverá ser definido. Nele deverá ser definido os artefatos esperados em cada área, bem como as motivações, objetivos, limites e restrições_]
 
 ### 1.1 Objetivos
-[_Identificar e descrever quais foram os motivos que levaram este projeto a ser escolhido e definido como viável e quais os objetivos a serem alcançados com ele._]
+Este é um projeto com o propósito unicamente acadêmico, sua finalidade é disceminar o conhecimento nas áreas do MPS.BR, nos níveis G e F, entre os integrantes da equipe.
 
 ### 1.2 Estratégia Organizacional
-[_Descrever estratégia organizacional realizada na escolha do produto a ser desenvolvido durante o projeto. Nesta seção será definido, conforme o GPR3 do MPS.BR, o ciclo de vida utilizado pela organização bem como uma breve descrição de suas fases. O detalhamento do ciclo de vida será realizado no tópico 1.5._]
+Este plano foi definido com o intuíto acadêmido de simular um projeto em uma empresa. O ciclo de vida utilizado como base para os futuros projetos que utilizarem deste plano é o __ciclo de vida em V__, devido a facilidade em encontrar erros durante as primeiras fases, evitando assim, maior custo no futuro.
 
 ### 1.3 Artefatos Esperados
 [_Nesta seção deverá ser mostrado uma EAP, estrutura analítica de projeto, contendo todos os artefatos que serão gerados por cada área do projeto como um todo._]
@@ -50,7 +49,42 @@ Processo de software 2015
 [_Conforme o tópico 1.2 e o GPR3 do MPS.BR, nesta seção serão detalhadas as fases do ciclo de vida que será utilizado (entretando o detalhamento deverá ocorrer de uma maneira geral ignorando qualquér tipo de escopo de produto) e quais artefatos serão esperados nessas fases._]
 
 ### 1.6 Estimativa de esforço
-[_Seguindo o GPR4 do MPS.BR, nesta seção serão definidas as métricas utilizadas para definir o esforço das atividades, bem como, a classificação das atividades com base nessas métricas (lembrar do tripé da E.S "Tempo", "Custo" e "Escopo")._]
+O esforço gasto em uma atividade é definida com base no __tempo__ gasto em média, o __custo__ gasto para equipamentos e preparo; e com o tamanho e tipo do __escopo__ da atividade a ser realizada. O calculo para definir o esforço é realizado conforme a tabela abaixo:
+
+* Tabela para classificação com base no tempo:
+
+ Métrica temporal | Nome | Valor 
+------------------|------|------
+Menor ou igual á __1 dia__ | Baixo | 3
+Entre __2 e 4 dias__ | Médio | 2
+Maior que __4 dias__ | Alto | 1
+
+* Tabela para classificação com base no custo:
+
+ Métrica monetária | Nome | Valor 
+------------------|------|------
+__Sem custo__ | Baixo | 1
+Menor que __100 Reais__ | Médio | 2
+Entre __100 e 1000 Reais__ | Alto | 3
+Maior que __1000 Reais__ | Muito Alto | 4
+
+* Tabela para classificação com base no escopo:
+
+ Métrica dimensional | Nome | Valor 
+------------------|------|------
+__Manutenção de Artefato__ | Alto | 3
+__Novo Artefato__ | Médio | 2
+__Refatoração de Artefato__ | Baixo | 1
+
+O __esforço__ é calculado pelo produto entre as métricas __tempo__,__custo__ e __escopo__, sendo classificada conforme a tabela abaixo:
+
+* Tabela para classificação de esforço:
+
+ Métrica (produto entre as métricas anteriores) | Nome
+------------------|------
+Entre __25 e 36__ | Alto
+Entre __13 e 24__ | Médio
+Entre __1 e 12__ | Baixo 
 
 2. Custo do Projeto
 --------------------
@@ -64,9 +98,13 @@ Processo de software 2015
 
 ### 2.3 Pontos de controle
 [_Deverão ser definidos também os pontos de controle do projeto. Para essa definição deverá ser levado em conta as características do ciclo de vida e do projeto em que será aplicado._]
+
 [_Seguindo o GPR10 do MPS.BR, é necessário a existência de um alinhamento entre o que está sendo definido e o que está sendo executado. Esses pontos de controle podem ser utilizados para analisar o andamento do projeto._]
+
 [_Seguindo o GPR11 do MPS.BR, caso as metas esperadas não forem atendidas, ajustes deverão ser realizados (bem como uma análise de viabilidade)._]
+
 [_Seguindo o GPR12 do MPS.BR, o plano do projeto deverá ser sempre revisado com todos os interessados de forma a manter o compromisso entre eles._]
+
 [_Seguindo o GPR17 do MPS.BR, revisões são realizadas em marcos do projeto e conforme estabelecido no planejamento._]
 
 
@@ -89,6 +127,7 @@ Processo de software 2015
 
 ### 4.2 Riscos em RH
 [_Nesta seção os riscos existentes para os integrantes deverão ser identificados, bem como seus impactos, probabilidade de ocorrência e prioridades._]
+
 [_Seguindo o GPR2 do MPS.BR, as métricas utilizadas na classificação dos riscos deverão ser especificadas, esse GPR também é aplicado em RH._]
 
 5. Detalhamento de Projeto
@@ -101,21 +140,31 @@ Processo de software 2015
 ### 5.2 Armazenamento de Artefatos
 [_Seguindo o GPR9 do MPS.BR, os artefatos gerados no projeto deverão ser listados, bem como suas formas de armazenamento e permições de acessibilidade (segurança)._]
 
+[_Linkar plano de gerência de configuração_]
+
 ### 5.3 Metricas de Acessibilidade
 [_As métricas utilizadas para definir acessibilidade dos artefatos deverão ser definidos._]
+
+[_Linkar plano de gerência de configuração_]
 
 6. Monitoramento
 ----------------
 [_Linkar os relatórios de monitoramento._]
+
 [_Seguindo o GPR13 do MPS.BR, todos os artefatos do projeto deverão ser monitorados, bem como os custos esperados. O uso de um relatório de monitoramento auxilia nesse GPR._]
+
 [_Seguindo o GPR14 do MPS.BR, os recursos humanos, deverão ser monitorados (por exemplo, realocação de pessoal). O uso de um relatório de monitoramento auxilia nesse GPR._]
+
 [_Seguindo o GPR15 do MPS.BR, os riscos deverão ser monitorados (por exemplo, acréscimo de um risco ou de uma forma de mitigação). O uso de um relatório de  monitoramento auxilia nesse GPR._]
+
 [_Seguindo o GPR16 do MPS.BR, os interessados pelo projeto deverão ser monitorados (por exemplo, mudança no lider da empresa que solicitou o projeto). O uso de um relatório de  monitoramento auxilia nesse GPR._]
 
 7. Manutenção
 -------------
 [_Linkar os relatórios de manutenção._]
+
 [_Seguindo o GPR18 do MPS.BR, os problemas identificados durante o projeto deverão ser monitorados. O uso de um relatório de manutenção auxilia nesse GPR._]
+
 [_Seguindo o GPR19 do MPS.BR, os problemas relatados durante o projeto deverão ser acompanhados até a sua conclusão. O uso de um relatório de manutenção auxilia nesse GPR._]
 
 8. Aprovação formal

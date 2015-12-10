@@ -106,8 +106,12 @@ Processo de software 2015
 ### 5.2 Armazenamento de Artefatos
 [_Seguindo o GPR9 do MPS.BR, os artefatos gerados no projeto deverão ser listados, bem como suas formas de armazenamento e permições de acessibilidade (segurança)._]
 
+[_Linkar plano de gerência de configuração_]
+
 ### 5.3 Metricas de Acessibilidade
 [_As métricas utilizadas para definir acessibilidade dos artefatos deverão ser definidos._]
+
+[_Linkar plano de gerência de configuração_]
 
 6. Monitoramento
 ----------------
