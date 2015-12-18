@@ -1,4 +1,4 @@
- 
+
 Processo de software 2015
 =================================
 
@@ -40,7 +40,13 @@ Este é um projeto com o propósito unicamente acadêmico, sua finalidade é dis
 Este plano foi definido com o intuíto acadêmido de simular um projeto em uma empresa. O ciclo de vida utilizado como base para os futuros projetos que utilizarem deste plano é o __ciclo de vida em V__, devido a facilidade em encontrar erros durante as primeiras fases, evitando assim, maior custo no futuro.
 
 ### 1.3 Artefatos Esperados
-[_Nesta seção deverá ser mostrado uma EAP, estrutura analítica de projeto, contendo todos os artefatos que serão gerados por cada área do projeto como um todo._]
+ No desenvolvimento de projetos pela organização deverá haver os artefatos a cada fase de desenvolvimento do produto. Seguindo o ciclo de vida do projeto, deverão ser apresentados ao longo do projeto documentos acerca do desenvolvimento de cada fase. Os resultados de cada fase deverão ser documentados para controle da organização, facilidade em manutenção posterior, organização no desenvolvimento.
+	Na etapa de especificação dos requisitos do software deverão ser gerados os artefatos relativos à: elicitação dos requisitos junto aos stakeholders; rastreabilidade dos requisitos deve ser realizada e documentada; deverá haver um relatório com as mudanças nos requisitos ao longo do desenvolvimento.
+	Na etapa de projeto preliminar deverão ser gerados os artefatos relativos à: [em aberto]
+	Na etapa de projeto detalhado deverão ser gerados os artefatos relativos à:[em aberto]
+	Na etapa de codificação deverão ser gerados os artefatos relativos à: codificação; documentação dos códigos; testes locais realizados pelo programador.
+	Nas etapas de testes deverão ser gerados relatórios relativos a realização dos testes em cada fase, os testes realizados na fase de especificação (teste de qualificação de requisitos) deve ser documentada e gerenciada, os testes realizados na fase de projeto (teste de integração e teste unitário) deverão gerar relatórios com os resultados obtidos nos testes realizados, deve ser documentado e gerenciado, os testes locais realizados por programadores e desenvolvedores deverão produzir documentação acerca do código, possuindo data de elaboração e versão do código e do produto.
+
 
 ### 1.4 Detalhamento dos Artefatos
 [_Seguindo o GPR2 do MPS.BR, os artefatos estimados deverão ser divididos em artefatos menores tornando mais fácil o regenciamento. Nesta seção, todos os artefatos gerados na EAP serão detalhados e classificados quanto a sua importância no projeto._]
@@ -217,4 +223,6 @@ Todos os problemas identificados durante o projeto deverão ser monitorados e ac
 
 8. Aprovação formal
 ----------------------------
-[_Aprovação formal do plano de projeto por todos os stakeholders_] 
+[_Aprovação formal do plano de projeto por todos os stakeholders_]
+
+
