@@ -41,10 +41,15 @@ Este plano foi definido com o intuíto acadêmido de simular um projeto em uma e
 
 ### 1.3 Artefatos Esperados
  No desenvolvimento de projetos pela organização deverá haver os artefatos a cada fase de desenvolvimento do produto. Seguindo o ciclo de vida do projeto, deverão ser apresentados ao longo do projeto documentos acerca do desenvolvimento de cada fase. Os resultados de cada fase deverão ser documentados para controle da organização, facilidade em manutenção posterior, organização no desenvolvimento.
+ 
 	Na etapa de especificação dos requisitos do software deverão ser gerados os artefatos relativos à: elicitação dos requisitos junto aos stakeholders; rastreabilidade dos requisitos deve ser realizada e documentada; deverá haver um relatório com as mudanças nos requisitos ao longo do desenvolvimento.
-	Na etapa de projeto preliminar deverão ser gerados os artefatos relativos à: [em aberto]
-	Na etapa de projeto detalhado deverão ser gerados os artefatos relativos à:[em aberto]
+	
+	Na etapa de projeto preliminar deverão ser gerados os artefatos relativos à: Gerência de projeto, tais como plano de projeto, cronogramas, marcos de projeto, análise de custo e viabilidade, gerenciamento e controle de riscos.
+	
+	Na etapa de projeto detalhado deverão ser gerados os artefatos relativos à: Gerência de áreas do projeto, tais como plano de gerência de requisitos, plano de qualidade e plano de gerência de configuração.
+	
 	Na etapa de codificação deverão ser gerados os artefatos relativos à: codificação; documentação dos códigos; testes locais realizados pelo programador.
+	
 	Nas etapas de testes deverão ser gerados relatórios relativos a realização dos testes em cada fase, os testes realizados na fase de especificação (teste de qualificação de requisitos) deve ser documentada e gerenciada, os testes realizados na fase de projeto (teste de integração e teste unitário) deverão gerar relatórios com os resultados obtidos nos testes realizados, deve ser documentado e gerenciado, os testes locais realizados por programadores e desenvolvedores deverão produzir documentação acerca do código, possuindo data de elaboração e versão do código e do produto.
 
 
