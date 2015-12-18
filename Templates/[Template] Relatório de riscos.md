@@ -2,7 +2,7 @@
 Processo de software 2015
 =================================
 
-Relatório de monitoramento de riscos
+Relatório de riscos
 ------------------------------------
 
 Identificador | Descrição | Área correspondente | Responsável pela resolução | Data de Incidência | Método de contingência 
