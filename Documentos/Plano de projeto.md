@@ -202,7 +202,6 @@ R8 | Mudança no cliente | Alta | O escopo do projeto será remanejado
 
 5. Detalhamento de Projeto
 --------------------------
-[_Nesta seção serão definidos aspéctos específicos para a execução do projeto definido._]
 
 ### 5.1 Estrutura de Projeto
 Para o projeto a ser desenvolvido será necessário um ambiente de desenvolvimento que utilize ferramentas de código livre ou open source, para gerência e controle do projeto será necessário um repositório para controle de versões do produto em desenvolvimento. O repositório deverá ser privado para acesso externo aos membros da equipe de desenvolvimento.
