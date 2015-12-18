@@ -205,10 +205,14 @@ R8 | Mudança no cliente | Alta | O escopo do projeto será remanejado
 [_Nesta seção serão definidos aspéctos específicos para a execução do projeto definido._]
 
 ### 5.1 Estrutura de Projeto
-[_Seguindo o GPR8 do MPS.BR, o ambiente necessário para a execução do projeto deverá ser definido. As ferramentas necessárias deverão ser listadas e caso não sejam necessárias ferramentas, esse fato também deferá ser relatado._]
+Para o projeto a ser desenvolvido será necessário um ambiente de desenvolvimento que utilize ferramentas de código livre ou open source, para gerência e controle do projeto será necessário um repositório para controle de versões do produto em desenvolvimento. O repositório deverá ser privado para acesso externo aos membros da equipe de desenvolvimento.
+	A comunicação entre os participantes do projeto que será desenvolvido deverá ser realiza através de chats online ou pessoalmente, funcionando de acordo com a quantidade de pessoas envolvidas no projeto. 
+	Para cada projeto deverá ter reuniões a cada semana, de aproximadamente 15 min para discutir com a equipe o andamento do projeto, ao final de cada reunião deverá ser realizado a elaboração de um relatório contendo os fatos discutidos.
+	Para os clientes deverá ser disponibilizado uma área para acesso aos artefatos gerados durante o desenvolvimento, essa área deverá ser controlada.
 
 ### 5.2 Armazenamento de Artefatos
-[_Seguindo o GPR9 do MPS.BR, os artefatos gerados no projeto deverão ser listados, bem como suas formas de armazenamento e permições de acessibilidade (segurança)._]
+Os artefatos produzidos durante o desenvolvimento do produto deverão ser acessados apenas por membros da equipe de desenvolvimento e cliente envolvido. O cliente possuirá uma área de acesso para ver o andamento do projeto, nesse ambiente terá disponível os relatórios e documentos relativos ao desenvolvimento, não serão acessíveis aos clientes os códigos-fonte do projeto.
+	Para os membros da equipe estará disponível o repositório do projeto, o qual terá o acesso privado, neste repositório do projeto terão os documentos de cada fase do projeto, projetos e códigos-fonte. Gerentes poderão ter acesso a qualquer projeto desenvolvido na empresa.
 
 [_Linkar plano de gerência de configuração_]
 
@@ -235,6 +239,6 @@ Todos os problemas identificados durante o projeto deverão ser monitorados e ac
 
 8. Aprovação formal
 ----------------------------
-[_Aprovação formal do plano de projeto por todos os stakeholders_]
+A aprovação do plano de projeto deverá ser realizada junto aos clientes e/ou stakeholders envolvidos no projeto.
 
 
