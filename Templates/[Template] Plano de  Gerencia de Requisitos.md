@@ -81,7 +81,7 @@ Descrever os perfis de cada interessado envolvido com o sistema.
 
 | Interessado(s) 	| Descrição 	|
 |:----------------:	|---------	|
-| Nome do perfil do interessado. Por exemplo: (cliente, atendente, vendedor, gerente comercial, etc.) | Descrever o perfil do interessado e como se espera que seja sua interação com o sistema direta ou indiretamente. Por exemplo, o vendedor da loja é a pessoa que atende os clientes e registra as vendas que são feitas. |
+| [_Nome do perfil do interessado. Por exemplo: (cliente, atendente, vendedor, gerente comercial, etc.)_] | [_Descrever o perfil do interessado e como se espera que seja sua interação com o sistema direta ou indiretamente. Por exemplo, o vendedor da loja é a pessoa que atende os clientes e registra as vendas que são feitas._] |
 
 ## 3. Requisitos e restrições não funcionais 
 --------------------------------------------
@@ -95,7 +95,7 @@ Exemplo:
 
 | Ref. 	|              Descrição                                               	| Caso de Uso     	|
 |------	|-------------------------------------------------------------------	|-----------------	|
-| RUSx | Descrição do requisito RINFx  | CSUy, CSUm ...  |
+| [_RUSx_] | [_Descrição do requisito RINFx_]  | [_CSUy, CSUm ..._]  |
 
 Estes requisitos de informação são importantes para verificar a qualidade da modelagem de dados que for feita.       
 
@@ -106,7 +106,7 @@ Exemplo:
 
 | Ref.  	|                          Descrição                       	| Caso de Uso |
 |-------	|----------------------------------------------------------	|---------------|
-| RIHCx 	| Descrição do requisito RIHCx | CSUy, CSUm ... |
+| [_RIHCx_] 	| [_Descrição do requisito RIHCx_] | [_CSUy, CSUm ..._] |
 
 ### 3.3 Requisitos e Restrições de Interface Externa (RIEX)
 
@@ -115,7 +115,7 @@ Exemplo:
 
 | Ref.  	|                          Descrição                       	| Caso de Uso |
 |-------	|----------------------------------------------------------	|---------------|
-| RIEXx 	| Descrição do requisito RIEXx | CSUy, CSUm ...	|
+| [_RIEXx_] 	| [_Descrição do requisito RIEXx_] | [_CSUy, CSUm ..._]	|
 
 ### 3.4 Requisitos e Restrições de Plataforma de Hardware (RPHW)
 
@@ -124,7 +124,7 @@ Exemplo:
 
 | Ref.  	|                          Descrição                       	| Caso de Uso |
 |-------	|----------------------------------------------------------	|---------------|
-| RPHWx	| Descrição do requisito RPHWx | CSUy, CSUm ... |
+| [_RPHWx_]	| [_Descrição do requisito RPHWx_] | [_CSUy, CSUm ..._] |
 
 
 ### 3.5 Requisitos e Restrições de Plataforma de Software (RPSW)
@@ -137,7 +137,7 @@ Exemplo:
 
 | Ref.  	|                          Descrição                       	| Caso de Uso |
 |-------	|----------------------------------------------------------	|---------------|
-| RPSWx | Descrição do requisito RSPWx | CSUy, CSUm ... |
+| [_RPSWx_] | [_Descrição do requisito RSPWx_] | [_CSUy, CSUm ..._] |
 
 ### 3.6 Requisitos e Restrições de Desempenho (RDES)
 
@@ -146,7 +146,7 @@ Exemplo:
 
 | Ref.  	|                          Descrição                       	| Caso de Uso |
 |-------	|----------------------------------------------------------	|---------------|
-| RDESx | Descrição do requisito RDESx | CSUy, CSUm ... |
+| [_RDESx_] | [_Descrição do requisito RDESx_] | [_CSUy, CSUm ..._] |
 
 ### 3.7 Requisitos e restrições de disponibilidade (RDIS).
 
@@ -158,7 +158,7 @@ Exemplo:
 
 | Ref.  	|                          Descrição                       	| Caso de Uso |
 |-------	|----------------------------------------------------------	|---------------|
-| RDISx	| Descrição do requisito RDISx | CSUy, CSUm ... |
+| [_RDISx_]	| [_Descrição do requisito RDISx_] | [_CSUy, CSUm ..._] |
 
 ### 3.8 Requisitos e Restrições de Segurança (RSEG)
 
@@ -172,7 +172,7 @@ Exemplo:
 
 | Ref.  	|              Descrição                      	| Caso de Uso 	|
 |-------	|------------------------------------------	|-------------	|
-| RSEGx | Descrição do requisito RSEGx | CSUy, CSUm ... |
+| [_RSEGx_] | [_Descrição do requisito RSEGx_] | [_CSUy, CSUm ..._] |
 
 ### 3.9 Requisitos e Restrições de Manutenibilidade (RMAN)
 
@@ -185,7 +185,7 @@ Exemplo:
 
 | Ref.  	|                          Descrição                       	| Caso de Uso |
 |-------	|----------------------------------------------------------	|---------------|
-| RMANx	| Descrição do requisito RMANx | CSUy, CSUm ... |
+| [_RMANx_]	| [_Descrição do requisito RMANx_] | [_CSUy, CSUm ..._] |
 
 ### 3.10 Requisitos e Restrições de Documentação (RDOC)
 
@@ -194,7 +194,7 @@ Exemplo:
 
 | Ref.  	|                          Descrição                       	| Caso de Uso |
 |-------	|----------------------------------------------------------	|---------------|
-| RDOCx | Descrição do requisito RDOCx | CSUy, CSUm ... |
+| [_RDOCx_] | [_Descrição do requisito RDOCx_] | [_CSUy, CSUm ..._] |
 
 ## 4. Casos de Uso e Requisitos Funcionais
 ---------------------------------
@@ -207,23 +207,23 @@ Este espaço deverá mostrar os casos de uso do sistema através de diagrama de 
 
 Cada caso de uso deve receber um identificador único, ser categorizado em primário, obrigatório ou opcional e ser descrito em um formato essencial resumido conforme explicado no capítulo 6 da terceira edição do livro “Utilizando UML e Padrões” de Craig Larman. Veja o exemplo a seguir:
 
-CSU1- Processar Venda
-	Atores: Vendedor e Cliente
-	Categoria: Primário
-Descrição: 
-Este caso de uso acontece quando um cliente chega a um ponto de venda com itens de produtos que deseja adquirir. O caixa usa o sistema para registrar cada item comprado. O sistema vai apresentando um total parcial e uma linha de detalhes à medida que registra cada item. O cliente fornece ao caixa os dados sobre o pagamento que são então validados e registrados pelo sistema. O sistema atualiza o estoque e emite um recibo que é entregue pelo caixa ao cliente. O cliente sai com os itens comprados.
-	Requisitos Funcionais:
+[_CSU1- Processar Venda_]
+	[_Atores: Vendedor e Cliente_]
+	[_Categoria: Primário_]
+[_Descrição:_] 
+[_Este caso de uso acontece quando um cliente chega a um ponto de venda com itens de produtos que deseja adquirir. O caixa usa o sistema para registrar cada item comprado. O sistema vai apresentando um total parcial e uma linha de detalhes à medida que registra cada item. O cliente fornece ao caixa os dados sobre o pagamento que são então validados e registrados pelo sistema. O sistema atualiza o estoque e emite um recibo que é entregue pelo caixa ao cliente. O cliente sai com os itens comprados._]
+	[_Requisitos Funcionais:_]
 
 
 | Ref.     |                          Descrição                       	| Categoria | Prioridade |
 |-------|----------------------------------------------------------|---------------|---------------|
-| RFUN 1.1 | Obter e exibir a descrição e valor unitário de um produto a partir de seu código identificador | Evidente | Alta |
-| RFUN 1.2 | Calcular e exibir o total parcial da venda a cada item informado | Evidente | Alta |
-| RFUN 1.3 | Registrar o valor recebido para venda realizada | Evidente | Alta |
-| RFUN 1.4 | Calcular e exibir o troco para o pagamento em dinheiro | Evidente | Alta |
-| RFUN 1.5 | Emitir recibo de pagamento | Evidente | Alta |
-| RFUN 1.6 | Atualizar o estoque do produto vendido | Evidente | Alta |
-| RFUN 1.7 | Registrar dados da venda realizada (data, hora, PDV, produtos vendidos...) | Evidente | Alta |
+| [_RFUN 1.1_] | [_Obter e exibir a descrição e valor unitário de um produto a partir de seu código identificador_] | [_Evidente_] | [_Alta_] |
+| [_RFUN 1.2_] | [_Calcular e exibir o total parcial da venda a cada item informado_] | [_Evidente_] | [_Alta_] |
+| [_RFUN 1.3_] | [_Registrar o valor recebido para venda realizada_] | [_Evidente_] | [_Alta_] |
+| [_RFUN 1.4_] | [_Calcular e exibir o troco para o pagamento em dinheiro_] | [_Evidente_] | [_Alta_] |
+| [_RFUN 1.5_] | [_Emitir recibo de pagamento_] | [_Evidente_] | [_Alta_] |
+| [_RFUN 1.6_] | [_Atualizar o estoque do produto vendido_] | [_Evidente_] | [_Alta_] |
+| [_RFUN 1.7_] | [_Registrar dados da venda realizada (data, hora, PDV, produtos vendidos...)_] | [_Evidente_] | [_Alta_]
 
 
 
@@ -235,7 +235,7 @@ Descrever os requisitos que poderão ser especificados em uma nova versão do pr
 
 | Ref.|   Descrição | Caso de Uso |
 |-------|------------|---------------|
-| RFUT1 | Em um futuro próximo o software de atendimento de clientes deverá ser integrado com o software do sistema de faturamento para que o atendente possa identificar o perfil de negócios do cliente | CSUx |
+| [_RFUT1_] | [_Em um futuro próximo o software de atendimento de clientes deverá ser integrado com o software do sistema de faturamento para que o atendente possa identificar o perfil de negócios do cliente_] | [_CSUx_] |
 
 
 ## 6. Referências cruzadas complementares 
@@ -245,20 +245,20 @@ Nesta seção são colocadas algumas referências cruzadas que podem ajudar o ra
 
 |Requisitos Funcionais | Requisitos Não-Funcionais|
 |---------------------|--------------------------|
-|Colocar identificação do requisito funcional|Colocar a identificação do requisito não funcional vinculado|
+|[_Colocar identificação do requisito funcional_] | [_Colocar a identificação do requisito não funcional vinculado_] |
 
 |Requisitos Funcionais | Origem do Requisito |
 |---------------------|--------------------------|
-| Colocar identificação dos requisitos funcionais | Colocar a origem do requisito. Pode ser uma entrevista, um questionário, ou outra técnica qualquer de elicitação de requisito aplicada. |
+| [_Colocar identificação dos requisitos funcionais_] | [_Colocar a origem do requisito. Pode ser uma entrevista, um questionário, ou outra técnica qualquer de elicitação de requisito aplicada._] |
 
 |Requisitos Não-Funcionais | Origem do Requisito |
 |---------------------|--------------------------|
-| Colocar identificação dos requisitos não-funcionais | Colocar a origem do requisito. Pode ser uma entrevista, um questionário, ou outra técnica qualquer de elicitação de requisito aplicada. |
+| [_Colocar identificação dos requisitos não-funcionais_] | [_Colocar a origem do requisito. Pode ser uma entrevista, um questionário, ou outra técnica qualquer de elicitação de requisito aplicada._] |
 
 | Casos de Uso | Origem do Caso de Uso |
 |---------------------|--------------------------|
-| Colocar a identificação do requisito funcional | 
-Colocar a origem do caso de uso. Pode ser uma entrevista, um questionário, ou outra técnica  qualquer de elicitação de requisito aplicada. |
+| [_Colocar a identificação do requisito funcional_] | 
+[_Colocar a origem do caso de uso. Pode ser uma entrevista, um questionário, ou outra técnica  qualquer de elicitação de requisito aplicada._] |
 
 ## 7. Aprovação Formal 
 ---------------------------------------------
@@ -271,12 +271,12 @@ O EOR deve ser datado e assinado de acordo com a definição contida no MPD. O d
 Detalhar todas as fontes de informação citadas no documento ou usadas de alguma forma para sua elaboração, incluindo título, autor, data, fonte de obtenção, órgão responsável pela publicação e qualquer outra informação que possa facilitar a localização e obtenção dessas fontes pelo leitor. Nesta seção cada fonte citada deve ser associada a um número identificador. Junto de cada citação deve ser colocada também uma explicação sucinta de como a fonte foi usada na elaboração do documento.
 Referenciar todas as fontes de informações citadas no EOR, explicando o motivo de sua citação. Devem ser incluídos, por exemplo:
 
-* Normas e Padrões utilizados;
-* Livros e artigos (autores, título, editora, páginas, volume, data e local da publicação, ISBN/ISSN, etc);
-* Manuais de outros Produtos.
+* [_Normas e Padrões utilizados;_]
+* [_Livros e artigos (autores, título, editora, páginas, volume, data e local da publicação, ISBN/ISSN, etc);_]
+* [_Manuais de outros Produtos._]
 
 Por exemplo, vamos supor que para elaborar o documento XXX-EOR-001 foram usadas as orientações contidas no Meta-Modelo de Especificação de Objetivos e Requisitos (EOR). Então, nesta seção deveria aparecer o seguinte texto:
-[1] Ronaldo Lopes de Oliveira, EOR – Modelo de Documento de Especificação de Objetivos e Requisitos de Software, Versão 2.0, abril de 2014.
+[_[1] Ronaldo Lopes de Oliveira, EOR – Modelo de Documento de Especificação de Objetivos e Requisitos de Software, Versão 2.0, abril de 2014._]
 Meta-Modelo usado como guia para definição do formato e conteúdo deste documento.
 
 
