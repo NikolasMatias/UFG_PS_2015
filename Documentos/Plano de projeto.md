@@ -162,9 +162,9 @@ Os riscos de equipe serão abordados em [Riscos em RH](#42-riscos-em-rh), enquan
 
 identificador | Nome | Prioridade | Forma de contingência  
 --------------|------|------------|-----------------------
-R3 | Equipamento defeituoso | Média/Alto | Deverá ser realizado uma realocação dos recursos
-R4 | Falta de Energia | Média/Alto | Não há como proceder
-R5 | Falta de Internet | Média/Alto | O projeto deverá continuar sendo feito em offline
+R1 | Equipamento defeituoso | Média/Alto | Deverá ser realizado uma realocação dos recursos
+R2 | Falta de Energia | Média/Alto | Não há como proceder
+R3 | Falta de Internet | Média/Alto | O projeto deverá continuar sendo feito em offline
 
 4. Recursos Humanos
 -------------------
@@ -189,8 +189,11 @@ Possiveis riscos de equipe:
 
 identificador | Nome | Prioridade | Forma de contingência  
 --------------|------|------------|-----------------------
-R1 | Membro doente | Baixa | O escopo do projeto será remanejado
-R2 | Membro inexperiente | Baixa | O membro deverá continuar estudando no mesmo tempo em que realiza o projeto
+R4 | Membro doente | Baixa | O escopo do projeto será remanejado
+R5 | Membro inexperiente | Baixa | O membro deverá continuar estudando no mesmo tempo em que realiza o projeto
+R6 | Remoção de um membro | Alta | O escopo do projeto será remanejado
+R7 | Adição de um membro | Alta | O escopo do projeto será remanejado
+R8 | Mudança no cliente | Alta | O escopo do projeto será remanejado
 
 5. Detalhamento de Projeto
 --------------------------
@@ -212,13 +215,17 @@ R2 | Membro inexperiente | Baixa | O membro deverá continuar estudando no mesmo
 6. Monitoramento
 ----------------
 
-Todos os artefatos do projeto deverão ser ter suas modificações monitoradas bem como os custos esperados e os recursos humanos, bem como os interessados pelo projeto deverão ser avisados.
+Todos os artefatos do projeto deverão ser ter suas modificações monitoradas bem como os custos esperados e os recursos humanos e os interessados.
+
+Os interessados também deverão ser informados das modificações. Para auxiliar o monitoramento, um relatório contendo a ocorrência dos riscos deverá existir sendo feito com base no [template de riscos](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Templates/%5BTemplate%5D%20Relat%C3%B3rio%20de%20riscos.md)
+
 [_Linkar os relatórios de monitoramento._]
 
 7. Manutenção
 -------------
 
-Todos os problemas identificados durante o projeto deverão ser monitorados e acompanhados até a sua conclusão.
+Todos os problemas identificados durante o projeto deverão ser monitorados e acompanhados até a sua conclusão. Para auxiliar a manutenção, um relatório contendo a ocorrência dos erros deverá existir sendo feito com base no [template de manutenção](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Templates/%5BTemplate%5D%20Relat%C3%B3rio%20de%20manuten%C3%A7%C3%A3o.md)
+
 [_Linkar os relatórios de manutenção._]
 
 8. Aprovação formal
