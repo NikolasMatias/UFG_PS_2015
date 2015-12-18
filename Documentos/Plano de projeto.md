@@ -46,7 +46,19 @@ Este plano foi definido com o intuíto acadêmido de simular um projeto em uma e
 [_Seguindo o GPR2 do MPS.BR, os artefatos estimados deverão ser divididos em artefatos menores tornando mais fácil o regenciamento. Nesta seção, todos os artefatos gerados na EAP serão detalhados e classificados quanto a sua importância no projeto._]
 
 ### 1.5 Detalhamento do Ciclo de Vida
-[_Conforme o tópico 1.2 e o GPR3 do MPS.BR, nesta seção serão detalhadas as fases do ciclo de vida que será utilizado (entretando o detalhamento deverá ocorrer de uma maneira geral ignorando qualquér tipo de escopo de produto) e quais artefatos serão esperados nessas fases._]
+O ciclo de vida definido para este plano é o __ciclo de vida em V__ a sua estruturação no projeto será realizada da seguinte maneira:
+
+* __Etapa 1:__ Será realizada uma análise dos requisitos do projeto bem como técnicas de verificação e validação destes requisitos.
+   * __Artefatos gerados na Etapa 1:__
+
+* __Etapa 2:__ Será realizada a transição dos requisitos para a arquitetura bem como técnicas de verificação e validação para essa nova arquitetura.
+   * __Artefatos gerados na Etapa 2:__
+
+* __Etapa 3:__ Será realizada a construção do projeto bem como os testes que serão aplicados de forma a validar e verificar o produto.
+   * __Artefatos gerados na Etapa 3:__
+   
+* __Etapa 4:__ Por fim o produto-final será implementado.
+   * __Artefatos gerados na Etapa 4:__
 
 ### 1.6 Estimativa de esforço
 O esforço gasto em uma atividade é definida com base no __tempo__ gasto em média, o __custo__ gasto para equipamentos e preparo; e com o tamanho e tipo do __escopo__ da atividade a ser realizada. O calculo para definir o esforço é realizado conforme a tabela abaixo:
@@ -97,38 +109,82 @@ Entre __1 e 12__ | Baixo
 [_Os recursos, assim como o cronograma, poderão ser definidos pela EAP, presente no tópico 1.3, em conjunto com o esforço estimado, presente no tópico 1.6. Os recursos gastos poderão ser detalhados._]
 
 ### 2.3 Pontos de controle
-[_Deverão ser definidos também os pontos de controle do projeto. Para essa definição deverá ser levado em conta as características do ciclo de vida e do projeto em que será aplicado._]
 
-[_Seguindo o GPR10 do MPS.BR, é necessário a existência de um alinhamento entre o que está sendo definido e o que está sendo executado. Esses pontos de controle podem ser utilizados para analisar o andamento do projeto._]
+Levando em conta o ciclo de vida em uso, foram definidos como pontos de controle o período de transição entre as fases do ciclo de vida V.
 
-[_Seguindo o GPR11 do MPS.BR, caso as metas esperadas não forem atendidas, ajustes deverão ser realizados (bem como uma análise de viabilidade)._]
+Após cada etapa serão realizados os testes de verificação e validação nos artefatos gerados conforme o tópico de [Detalhamento do Ciclo de Vida](#15-detalhamento-do-Ciclo-de-Vida) e não conformidades deverão ser identificadas e monitoradas até a sua conclusão.
 
-[_Seguindo o GPR12 do MPS.BR, o plano do projeto deverá ser sempre revisado com todos os interessados de forma a manter o compromisso entre eles._]
+Nessa fase também serão realizados reuniões de forma a verificar o andamento do projeto na opnião dos integrantes de forma a manter o compromisso entre a equipe.
 
-[_Seguindo o GPR17 do MPS.BR, revisões são realizadas em marcos do projeto e conforme estabelecido no planejamento._]
-
+Quaisquér não-conformidades encontradas durante os pontos de controle deverão ser documentadas e um relatório de estado para o marco será criado.
 
 3. Gerenciamento de Riscos
 --------------------------
-[_Seguindo o GPR6 do MPS.BR, os riscos deverão ser identificados, bem como seus impactos, probabilidade de ocorrência e prioridades. Assim como formas de mitigação  deverão ser definidas e sua ocorrência deverá ser documentada (uso de um documento para relatar a ocorrência os riscos)._]
 
 ### 3.1 Métricas de Risco
-[_Seguindo o GPR2 do MPS.BR, as métricas utilizadas na classificação dos riscos deverão ser especificadas._]
+
+A prioridade de um risco é calculado pelo produto entre os __indivíduos afetados__ e seu __impacto__ no projeto.
+
+* Tabela para classificação de afetibilidade:
+
+ Métrica de afetibilidade | Nome | Valor 
+------------------|------|------
+O risco afeta apenas 1 (um) indivíduo da equipe | Baixo | 1
+O risco afeta vários indivíduos | Alto | 2
+
+* Tabela para classificação de impacto:
+
+ Métrica de impacto | Nome | Valor 
+------------------|------|------
+Afeta todo o projeto | Alto | 3
+Afeta várias área | Médio | 2
+Afeta apenas 1 (um) área em específico | Baixo | 1
+
+* Tabela para classificação de prioridade:
+
+ Métrica (produto entre as métricas anteriores) | Nome
+------------------|------
+Entre __1 e 2__ | Baixo
+Entre __3 e 4__ | Médio
+Entre __5 e 6__ | Alto 
 
 ### 3.2 Tipos de Riscos
-[_Nesta seção deverão ser definidos os tipos de riscos e suas características, conforme citado no início do tópico 3._]
+
+Os riscos serão classificados em __riscos de equipe__ e __riscos técnicos__.
+
+Os riscos de equipe serão abordados em [Riscos em RH](#42-riscos-em-rh), enquanto que os riscos técnicos serão abordados neste tópico.
+
+identificador | Nome | Prioridade | Forma de contingência  
+--------------|------|------------|-----------------------
+R3 | Equipamento defeituoso | Média/Alto | Deverá ser realizado uma realocação dos recursos
+R4 | Falta de Energia | Média/Alto | Não há como proceder
+R5 | Falta de Internet | Média/Alto | O projeto deverá continuar sendo feito em offline
 
 4. Recursos Humanos
 -------------------
-[_Seguindo o GPR7 do MPS.BR, as funções e responsábilidades deverão ser definidos, os integrantes deverão ser gerenciados e suas competências listadas._]
 
 ### 4.1 Responsábilidades
-[_Nessa seção deverá ser definido os tipos de papéis presentes na organização, bem como os responsáveis por representa-lo e suas capacidades (por exemplo, o perfil do Linkedin)._]
+
+           Nome             |            Papel           | Responsável por | Competências
+-----------------------------|----------------------------|--------------|---------
+Pedro Henrique Silva Farias    | Gerente de Projetos     | Verificar se o plano de projeto está sendo aplicado corretanmente | [LinkedIn de Pedro]
+Rony Nogueira  | Gerente de Projetos    | Verificar se o plano de projeto está sendo aplicado corretanmente     | [LinkedIn de Rony]
+Milton Araújo   | Gerente de Requisitos          | Levantar e gerenciar os requisitos   | [LinkedIn de Milton]
+Matheus Vani | Analista de Requisitos      | Levantar e anaisar os requisitos     | [LinkedIn de Matheus]
+Thallisson Lopes     | Analista de Requisitos | Levantar e anaisar os requisitos     | [LinkedIn de Thallisson]
+Matheus Lima          | Gerente de qualidade          | Gerar e executar checklists para garantia de qualidade     | [LinkedIn de Matheus Lima]
+Nikolas Mathias     | Gerente de qualidade | Gerar e executar checklists para garantia d qualidade     | [LinkedIn de Nikolas]
 
 ### 4.2 Riscos em RH
-[_Nesta seção os riscos existentes para os integrantes deverão ser identificados, bem como seus impactos, probabilidade de ocorrência e prioridades._]
 
-[_Seguindo o GPR2 do MPS.BR, as métricas utilizadas na classificação dos riscos deverão ser especificadas, esse GPR também é aplicado em RH._]
+Os riscos em RH são classificados conforme o que foi abordado em [Gerenciamento de Riscos](#3-gerenciamento-de-riscos).
+
+Possiveis riscos de equipe:
+
+identificador | Nome | Prioridade | Forma de contingência  
+--------------|------|------------|-----------------------
+R1 | Membro doente | Baixa | O escopo do projeto será remanejado
+R2 | Membro inexperiente | Baixa | O membro deverá continuar estudando no mesmo tempo em que realiza o projeto
 
 5. Detalhamento de Projeto
 --------------------------
@@ -149,23 +205,15 @@ Entre __1 e 12__ | Baixo
 
 6. Monitoramento
 ----------------
+
+Todos os artefatos do projeto deverão ser ter suas modificações monitoradas bem como os custos esperados e os recursos humanos, bem como os interessados pelo projeto deverão ser avisados.
 [_Linkar os relatórios de monitoramento._]
-
-[_Seguindo o GPR13 do MPS.BR, todos os artefatos do projeto deverão ser monitorados, bem como os custos esperados. O uso de um relatório de monitoramento auxilia nesse GPR._]
-
-[_Seguindo o GPR14 do MPS.BR, os recursos humanos, deverão ser monitorados (por exemplo, realocação de pessoal). O uso de um relatório de monitoramento auxilia nesse GPR._]
-
-[_Seguindo o GPR15 do MPS.BR, os riscos deverão ser monitorados (por exemplo, acréscimo de um risco ou de uma forma de mitigação). O uso de um relatório de  monitoramento auxilia nesse GPR._]
-
-[_Seguindo o GPR16 do MPS.BR, os interessados pelo projeto deverão ser monitorados (por exemplo, mudança no lider da empresa que solicitou o projeto). O uso de um relatório de  monitoramento auxilia nesse GPR._]
 
 7. Manutenção
 -------------
+
+Todos os problemas identificados durante o projeto deverão ser monitorados e acompanhados até a sua conclusão.
 [_Linkar os relatórios de manutenção._]
-
-[_Seguindo o GPR18 do MPS.BR, os problemas identificados durante o projeto deverão ser monitorados. O uso de um relatório de manutenção auxilia nesse GPR._]
-
-[_Seguindo o GPR19 do MPS.BR, os problemas relatados durante o projeto deverão ser acompanhados até a sua conclusão. O uso de um relatório de manutenção auxilia nesse GPR._]
 
 8. Aprovação formal
 ----------------------------
