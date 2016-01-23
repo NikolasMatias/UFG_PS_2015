@@ -39,11 +39,11 @@ A organização do gerenciamento de configuração será atribuído ao Gerente d
 ## 2.2 Ferramentas, Ambiente e Infraestrutura 
 Para um bom Gerenciamento das configurações é necessário utilizar ferramentas que ajudam em todos os seus passos. Sendo elas: 
 
-Git – Para o controle de versões. 
+**Git** – Para o controle de versões. 
 
-Redmine - Para o controle das mudanças. 
+**Redmine** - Para o controle das mudanças. 
 
-Ant – Para a integração contínua.
+**Ant** – Para a integração contínua.
 
 Além disso teremos de ter um ambiente para ser realizado este trabalho. Como a equipe é pequena e se trata de um trabalho para uma matéria do curso. Então o ambiente será a sala de aula, juntamente com a casa dos integrantes do grupo. O material para realizar o projeto será notebooks ou computadores pessoais, além das máquinas disponibilzadas durante a aula. 
 3. Programa de Gerenciamento de configurações 
