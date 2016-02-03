@@ -1,3 +1,10 @@
+ 
+Processo de software 2015, [Template]Checklist de Garantia da Qualidade
+=================================
+
+Checklist de Garantia da Qualidade
+-----------------------
+
 ## Gerência de Requisitos
 | Atividades Definidas para o Processo | Porcentagem de adequação da Execução | Produtos Gerados | Feito | Porcentagem de Adequação do Template |
 | ------------------------------------ | ------------------------------------ | ---------------- | ----- | ------------------------------------ | 
@@ -19,6 +26,7 @@
 | Monitorar o Processo                               |                                      | Plano de Monitoramento                             |       |                                      |
 | Planejar o Envolvimento dos Interessados           |                                      | Plano de Envolvimento dos interessados             |       |                                      |
 | Verificar a Execução do Projeto                    |                                      | Plano de Monitoramento, Cronograma e EAP do Projeto|       |                                      |
+
 ## Garantia de Qualidade 
 | Atividades Definidas para o Processo         | Porcentagem de adequação da Execução | Produtos Gerados                                                                                  | Feito | Porcentagem de Adequação do Template |
 | -------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------- | ----- | ------------------------------------ | 

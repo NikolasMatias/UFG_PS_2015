@@ -1,4 +1,5 @@
-Gerência de Configuração (GCO).
+
+Processo de software 2015, Gerência de Configuração (GCO).
 ========================
 
 Índice Analítico

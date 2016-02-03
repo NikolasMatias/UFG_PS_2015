@@ -1,17 +1,6 @@
-Plano de Qualidade de Software
+
+Processo de software 2015, [Template]Plano de Qualidade de Software
 ==================================
-
-## \<Nome do Projeto\>
-## Versão: 1.0
-
-
-### Histórico de Revisão
-Data | Versão | Descrição | Autor
------- | -------- | ----------- | -------------
-\<dd/mmm/aa\> | \<x.x\> | \<detalhes\> | \<nome\>
-       |          |             |               
-       |          |             
-       |          |             |
        
 Índice Análitico
 ------------------
