@@ -41,12 +41,12 @@ O Mr Imune é programa multiplataforma(aplicação mobile e web) que apresenta u
 
 3. Métricas
 -------------
+Foco  |  Descrições
+---------- | -------------
 Indicador | Índice de cumprimento de cronograma
-
-
-
-Objetivo  | O objetivo desse indicador é verificar o desempenho do processo de qualidade quanto ao cumprimento do cronograma.
-Coleta    | Os dados devem ser coletados através do cronograma do processo. As datas inicias e finais planejadas serão analisadas com relação a execução.
+Objetivo | O objetivo desse indicador é verificar o desempenho do processo de qualidade quanto ao cumprimento do cronograma.
+Coleta | Os dados devem ser coletados através do cronograma do processo. As datas iniciais e finais planejadas serão analisadas com relação a execução.  Para medição utiliza-se a formula x= a - b.  
+Para medição utiliza-se a formula x= a - b.
 
 Para medição utiliza-se a formula x= a - b.
 x = Índice de cumprimento do cronograma
