@@ -45,13 +45,13 @@ Indicador | Índice de cumprimento de cronograma
 ---------- | ------------------------------------------
 Objetivo | O objetivo desse indicador é verificar o desempenho do processo de qualidade quanto ao cumprimento do cronograma.
 Coleta | Os dados devem ser coletados através do cronograma do processo. As datas iniciais e finais planejadas serão analisadas com relação a execução.  Para medição utiliza-se a formula x= a - b.  x = Índice de cumprimento do cronograma. a = Atividades em dia. b = Atividades executadas ou entregues fora do prazo.
-Análise | Quanto mais próximo de 0, x estiver, mais eficaz o processo no que diz respeito ao cumprimento do planejado.Caso, X = 0-4 - BAIXO, X = 0-6 - MÉDIO, X >10 - ALTO.
+Análise | Quanto mais próximo de 0, x estiver, mais eficaz o processo no que diz respeito ao cumprimento do planejado.Caso X = 0-4 - BAIXO, X = 0-6 - MÉDIO, X >10 - ALTO.
 
-Indicador |
------------ | -----------------------
-Objetivo |
-Coleta |
-Análise |
+Indicador | Resolução de Nâo confirmidade
+----------- | -----------------------------
+Objetivo | O objetivo desse indicador é medir o desempenho do processo de qualidade quanto a eficácia do mesmo na resolução das não conformidades ao longo do desenvolvimento.
+Coleta | Os dados devem ser coletados através dos registros de não conformidades. Para medição utiliza-se a formula x= a - b. x = Resolução de não conformidades. a = Não conformidades relatadas. b = Não conformidades solucionadas.
+Análise | Quanto mais próximo de 0, x estiver, mais eficaz o processo na resolução das não conformidades. Caso X = 0-4 - BAIXO, X = 0-6 - MÉDIO e X >10 - ALTO.
 
 4. Resolução de Problemas e Ação Corretiva
 --------------------------------------------
