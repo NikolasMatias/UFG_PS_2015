@@ -10,10 +10,10 @@ Processo Garantia de Qualidade
    * 1.1. [Objetivos](#11-objetivos)
    * 1.2. [Referências](#12-referências)
    * 1.3. [Escopo](#13-escopo)
-* 2. [Definições](#2-Definições)
-* 3. [Politicas](#3-Politicas)
-* 4. [Métricas](#4-métricas)
-* 5. [Papeis](#5-papeis)
+   * 1.4 [Definições, Abreviações e Acronimos](#14-definições-abreviações-e-acronimos)
+   * 1.5. [Politicas](#15-politicas)
+* 2. [Papeis](#2-papeis)
+* 3. [Métricas](#3-métricas)
 * 4. [Resolução de Problemas e Ação Corretiva](#4-resolução-de-problemas-e-ação-corretiva)
    * 4.1 [Cronograma](#41-cronograma)
    * 4.2. [Ações corretivas para Porcentagem de Adequação da Execução](#42-ações-corretivas-para-porcentagem-de-adequação-da-execução)
@@ -35,11 +35,29 @@ MPS - BR: Melhoria de Processos do Software Brasileiro
 CMMI: Capability Maturity Model - Integration ou Modelo de Maturidade em Capacitação - Integração
 
 ### 1.3 Escopo
-O Mr Imune é programa multiplataforma(aplicação mobile e web) que apresenta um calendário de vacinas disponibilizados pelo Ministério da Saúde e histórico das vacinas que você de já tomou. 
+O Mr Imune é programa multiplataforma(aplicação mobile e web) que apresenta um calendário de vacinas disponibilizados pelo Ministério da Saúde e histórico das vacinas que você de já tomou.
 
-2. Objetivos de Qualidade
+### 1.4 Definições, Abreviações e Acronimos
+
+Definições, Abreviações e Acrônimos | Significado
+----------------------------------- | -----------------
+MPS-BR                             | Melhoria de Processo de Software Brasileiro
+CMMI                               | Capability Maturity Model - Integration ou Modelo de Maturidade em Capacitação - Integração
+
+### 1.5 Politicas
+
+* Todos os processos atrelados aos projetos desenvolvidos pela organização devem estar em conformidade com os resultados esperados do nível G do MPS-BR.
+* Deve haver um controle sistêmico de todos os artefatos de projeto.
+
+2. Papeis
 --------------------------
-[_Esta seção precisa fazer referência à seção da Especificação de Requisitos de Software que aborda os requisitos de qualidade._]
+
+Papel              | Gerente de Qualidade(GQA)
+------------------ | -----------------------------
+Formação           | Essas ocupações são exercidas por pessoas com escolaridade de ensino superior na área de tecnologia da informação ou similares.
+Conhecimentos      | Conceitos sobre garantia da qualidade, Processo de garantia da qualidade na empresa e Conhecimento básico nos modelos de maturidade de processo MPS-BR ou CMMI.
+Responsabilidades  | Definir o plano de garantia da qualidade, Estabelecer os processos que serão geridos pela garantia da qualidade, Definir um cronograma para avaliação da conformidade da execução dos processos com o que foi planejado, Estabelecer métodos de avaliação de aderência de processo, Realizar auditorias.  Relatar todas as não conformidades, Planejar ações corretivas para as não conformidades identificadas.
+
 
 3. Métricas
 -------------
