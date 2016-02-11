@@ -8,14 +8,13 @@ Processo de software 2015, [Template]Plano de Qualidade de Software
    * 1.1. [Objetivos](#11-objetivos)
    * 1.2. [Referências](#12-referências)
    * 1.3. [Escopo](#13-escopo)
-* 2. [Objetivos de Qualidade](#2-objetivos-de-qualidade)
+   * 1.4 [Definições, Abreviações e Acronimos](#14-definições-abreviações-e-acronimos)
+   * 1.5. [Politicas](#15-politicas)
+* 2. [Papeis](#2-papeis)
 * 3. [Métricas](#3-métricas)
-* 4. [Resolução de Problemas e Ação Corretiva](#4-resolução-de-problemas-e-ação-corretiva)
-   * 4.1 [Cronograma](#41-cronograma)
-   * 4.2. [Ações corretivas para Porcentagem de Adequação da Execução](#42-ações-corretivas-para-porcentagem-de-adequação-da-execução)
-   * 4.3. [Ações corretivas para Porcentagem de Adequação ao Template](#43-ações-corretivas-para-porcentagem-de-adequação-ao-template)
-* 5. [Monitoramento de Resultados](#5-monitoramento-de-resultados)
-* 6. [Validação dos Resultados](#6-validação-dos-resultados)
+* 4. [Comunicação](#4-comunição)
+* 5. [Macro Fluxo](#5-macro-fluxo)
+* 6. [Atividades](#6-atividades)
 
 
 
@@ -32,49 +31,54 @@ Processo de software 2015, [Template]Plano de Qualidade de Software
 ### 1.3 Escopo
 [_Descrição detalhada do escopo do projeto EveRemind_]
 
-2. Objetivos de Qualidade
---------------------------
-[_Esta seção precisa fazer referência à seção da Especificação de Requisitos de Software que aborda os requisitos de qualidade._]
+### 1.4 Definições, Abreviações e Acronimos
+### 1.5 Politicas
 
+2. Papeis
+--------------------------
+
+Papel              | [_Nome do Papel assumido. Ex.: Gerente de Qualiadde_]
+------------------ | -----------------------------
+Formação           | [_Qual a formação minima necessária para poder assumir este papel._]
+Conhecimentos      | [_Conhemento necessário para a pessoa que irá assumir o papel._]
+Responsabilidades  | [_Campo onde será demonstrada quais serão as responsabilidades desse usuário_]
 3. Métricas
 -------------
-[_Anexo do Plano de Métricas_]
+Indicador | [_O nome de um Indice esperado_]
+---------- | ------------------------------------------
+Objetivo | [_Neste campo será colocado o objetivo do indice._]
+Coleta | [_Aqui deve ser colocado uma maneira de medida para o índice indicado._]
+Análise | [_Neste campo será colocado os dados de uma análise que demonstra qual o nivel de qualidade do indice._]
 
-4. Resolução de Problemas e Ação Corretiva
+4. Comunicações
 --------------------------------------------
-[_Descrição dos procedimentos necessários para reportar e solucionar problemas identificados durante as revisões e auditorias do projeto_]
-[_Aqui também será feito como será o escalonamento das não conformidades após o termino do prazo de resolução. Devem ser descritos o tempo de atraso da resolução da ação, criticidade da não conformidade, o ciclo do desenvolvimento que o processo se encontra_]
 
-### 4.1 Cronograma
-[_Marcos predefinidos para realização de avaliações e monitoramento do processo._]
+Comunicação | [_Título da comunicação_]
+----------- | ------------------------------
+Emissor | [_Quem irá emitir a informação_]
+Receptores | [_Quem receberá a informação_]
+Mensagem | [_Qual a mensagem que será passada para os Receptores._]
+Meio de Comunicação | [_O que será utilizado para poder realizar a comunicaçao. Ex.: Documentos_]
+Quando | [_Quando será transmito a mensagem._]
 
-Áreas de Processo | Checklists | Data de Realização
-------------------| ------------| --------------------
-                 |              |
-                 |              |
-                 |              |
-### 4.2 Ações corretivas para Porcentagem de Adequação da Execução
 
-Adequação | Porcentagem | Descrição da Ação Corretiva
----------| ---------------| ---------------------------
-Baixa   | 0 a 40%         | [_Ação corretiva para baixa adequação_]
-Média   | 41 a 75%        | [_Ação corretiva para média adequação_]
-Alta    | 76 a 100%       | [_Ação corretiva para alta adequação_]
-
-### 4.3 Ações corretivas para Porcentagem de Adequação ao Template
-
-Adequação | Porcentagem | Descrição da Ação Corretiva
----------| ---------------| ---------------------------
-Baixa   | 0 a 40%         | [_Ação corretiva para baixa adequação_]
-Média   | 41 a 75%        | [_Ação corretiva para média adequação_]
-Alta    | 76 a 100%       | [_Ação corretiva para alta adequação_]
-
-5. Monitoramento de Resultados
+5. Macro Fluxo
 -------------------------------
-[_Aqui será descrito como será monitorado os resultados e produtos esperados do processo, e se tudo o que fora planejado foi cumprido._]
+[_Imagem que demonstra o macro fluxo do Plano._]
 
 
-6. Validação dos Resultados
+6. Atividades
 -------------------------------------
-[_Aqui será validado os resultados do processo de Garantia da Qualidade. Juntamente com a gerência de alto nível do projeto._]
 
+Atividade | Definir os processos a serem geridos
+--------- | -----------------------------------------
+Responsabilidades | Realização: [_O que será realizado por está atividade._]
+Responsabilidades | Aprovação: [_Pessoas que precisam aprovar a atividade._]
+Responsabilidades | Colaboração: [_Quem está colaborando com esta atividade._]
+Responsabilidades | Informação: [_Quem será informado_]
+Tarefas | [_Quais são as tarefas a serem realizadas pela atividade._]
+Pré-Condições | [_ O que é necessario para que antes da atividade começar._]
+Entradas | [_O que é necessário para que essa atividade comece a ser executado._]
+Critérios de Saída | [_Critérios necessários para terminar o produto da atividadeI_]
+Produtos | [_Nessa seção será exposta em forma de texto o produto gerado da tarefa._]
+Ferramentas | [_Em qual ferramenta será executado este processo._]
