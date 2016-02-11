@@ -100,8 +100,77 @@ Mensagem | Relatar os envolvidos a existência de uma não conformidade
 Meio de Comunicação | Forma de comunicação que permita o envio da mensagem para os membros relevantes e que mantenha o controle e integridade da mensagem. Podendo ser via e-mail, repositório, ou outros serviços de mensagens nos quais os envolvidos possuam familiaridade.
 Quando | Quando houver necessidade de atentar os envolvidos
 
-5. Atividades
+5. Macro Fluxo
+--------------------
+![Imagem do Macro Fluxo](https://i.imgsafe.org/c9c3b1c.png)
+
+6. Atividades
 ---------------------------
+
+Atividade | Definir os processos a serem geridos
+--------- | -----------------------------------------
+Responsabilidades | Realização: Identificar quais os processos em que será aplicada a garantia da qualidade.
+Responsabilidades | Aprovação: Não se aplica.
+Responsabilidades | Colaboração: Todos os envolvidos no projeto.
+Responsabilidades | Informação: Gerente de projetos
+Tarefas | 1. Identificação dos processos relacionados ao projeto. 2. Definições de quais processos devem ser gerenciados pela garantia da qualidade.
+Pré-Condições | Nenhum critério especifico.
+Entradas | Processos que compõe o projeto
+Critérios de Saída | Escopo de garantia de Qualidade
+Produtos | Seção 1.3 do Plano de Qualidade
+Ferramentas | Microsoft Office.
+
+Atividade | Verificar a Aderência dos Produtos de trabalho
+--------- | -----------------------------------------
+Responsabilidades | Realização: Verificar a aderência dos produtos de trabalho aos padrões, procedimentos e requisitos aplicáveis.
+Responsabilidades | Aprovação: Não se aplica.
+Responsabilidades | Colaboração: Todos os envolvidos.
+Responsabilidades | Informação: Todos os envolvidos.
+Tarefas | 1. Definir checklist. 2. Programar auditorias internas. 3. Realizar auditorias internas.
+Pré-Condições | Nenhum critério específico.
+Entradas | Produtos de trabalho, padrões, procedimentos e requisitos aplicáveis
+Critérios de Saída | Nenhum criterio especifico.
+Produtos | Checklist.
+Ferramentas | Microsoft Office.
+
+Atividade | Verificar a Aderencia do Processo
+--------- | -----------------------------------------
+Responsabilidades | Realização: Realizar Auditorias a fim de verificar a aderência dos processos executados às descrições de processo, padrões e procedimentos.
+Responsabilidades | Aprovação: Não se aplica.
+Responsabilidades | Colaboração: Todos os envolvidos.
+Responsabilidades | Informação: Todos os envolvidos.
+Tarefas | 1. Definir checklists. 2. Programar Auditorias Internas. 3. Realizar Auditorias Internas.
+Pré-Condições | Nenhum critério especifico.
+Entradas | Processo executados, descrições de processo, padrões e procedimentos.
+Critérios de Saída | Nenhum critério especifico.
+Produtos | Checklist
+Ferramentas | Microsoft Office.
+
+Atividade | Relatar as não conformidades
+--------- | -----------------------------------------
+Responsabilidades | Realização: Documentar todas as não conformidades auditadas.
+Responsabilidades | Aprovação: Não se aplica.
+Responsabilidades | Colaboração: Gerente de Projeto.
+Responsabilidades | Informação: Todos os envolvidos.
+Tarefas | 1. Documentar todas as não conformidades. 2. Classificar as não conformidades. 3. Comunicar as não conformidades.
+Pré-Condições | Nenhum critério especifico.
+Entradas | Checklist.
+Critérios de Saída | Nenhum critério especifico.
+Produtos | Relat´rio de não conformidades e Registro de não conformidades.
+Ferramentas | Microsoft Office.
+
+Atividade | Definir ações corretivas
+--------- | -----------------------------------------
+Responsabilidades | Realização: Planejar as açoes corretivas para as não conformidades relatadas.
+Responsabilidades | Aprovação: Gerente de Projeto, Comitê de Controle de Mudanças.
+Responsabilidades | Colaboração: Gerente de Projeto e o gerente responsável pelo processo que envolve a não conformidade junto ao Comitê de Controle de Mudanças.
+Responsabilidades | Informação: Todos os envolvidos.
+Tarefas | 1. Identificar a causa da não conformidade. 2. Avaliar a necessidade de ações para correção. 3. Determinar a implementação de ações necessárias. 4. Registrar os resultados da correção.
+Pré-Condições | Para inicio da atividade é necessário que as não conformidades sejam identificadas e documentas.
+Entradas | Relatório de não conformidades
+Critérios de Saída | A solução deve ser implementada, registrada e aprovada pelo Gerente de Projeto
+Produtos | Seção 4 Plano de Garantia Qualidade. Relatório de resolução de não conformidades. Registro de não conformidades.
+Ferramentas | Microsoft Office.
 
 
 5. Monitoramento de Resultados
