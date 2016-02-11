@@ -14,12 +14,9 @@ Processo Garantia de Qualidade
    * 1.5. [Politicas](#15-politicas)
 * 2. [Papeis](#2-papeis)
 * 3. [Métricas](#3-métricas)
-* 4. [Resolução de Problemas e Ação Corretiva](#4-resolução-de-problemas-e-ação-corretiva)
-   * 4.1 [Cronograma](#41-cronograma)
-   * 4.2. [Ações corretivas para Porcentagem de Adequação da Execução](#42-ações-corretivas-para-porcentagem-de-adequação-da-execução)
-   * 4.3. [Ações corretivas para Porcentagem de Adequação ao Template](#43-ações-corretivas-para-porcentagem-de-adequação-ao-template)
-* 5. [Monitoramento de Resultados](#5-monitoramento-de-resultados)
-* 6. [Validação dos Resultados](#6-validação-dos-resultados)
+* 4. [Comunicação](#4-comunição)
+* 5. [Macro Fluxo](#5-macro-fluxo)
+* 6. [Atividades](#6-atividades)
 
 
 
@@ -171,14 +168,4 @@ Entradas | Relatório de não conformidades
 Critérios de Saída | A solução deve ser implementada, registrada e aprovada pelo Gerente de Projeto
 Produtos | Seção 4 Plano de Garantia Qualidade. Relatório de resolução de não conformidades. Registro de não conformidades.
 Ferramentas | Microsoft Office.
-
-
-5. Monitoramento de Resultados
--------------------------------
-[_Aqui será descrito como será monitorado os resultados e produtos esperados do processo, e se tudo o que fora planejado foi cumprido._]
-
-
-6. Validação dos Resultados
--------------------------------------
-[_Aqui será validado os resultados do processo de Garantia da Qualidade. Juntamente com a gerência de alto nível do projeto._]
 
