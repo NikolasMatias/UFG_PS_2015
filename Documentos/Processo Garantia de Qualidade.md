@@ -73,34 +73,36 @@ Objetivo | O objetivo desse indicador é medir o desempenho do processo de quali
 Coleta | Os dados devem ser coletados através dos registros de não conformidades. Para medição utiliza-se a formula x= a - b. x = Resolução de não conformidades. a = Não conformidades relatadas. b = Não conformidades solucionadas.
 Análise | Quanto mais próximo de 0, x estiver, mais eficaz o processo na resolução das não conformidades. Caso X = 0-4 - BAIXO, X = 0-6 - MÉDIO e X >10 - ALTO.
 
-4. Resolução de Problemas e Ação Corretiva
+4. Comunicação
 --------------------------------------------
-[_Descrição dos procedimentos necessários para reportar e solucionar problemas identificados durante as revisões e auditorias do projeto_]
-[_Aqui também será feito como será o escalonamento das não conformidades após o termino do prazo de resolução. Devem ser descritos o tempo de atraso da resolução da ação, criticidade da não conformidade, o ciclo do desenvolvimento que o processo se encontra_]
 
-### 4.1 Cronograma
-[_Marcos predefinidos para realização de avaliações e monitoramento do processo._]
+Comunicação | Plano de Garantia de Qualidade
+----------- | ------------------------------
+Emissor | Gerente de Qualidade
+Receptores | Todos os envolvidos no projeto
+Mensagem | Determinar como Garantia da Qualidade auxiliará durante o projeto
+Meio de Comunicação | Plano de Garantia de Qualidade
+Quando | Planejamento e atualização do projeto
 
-Áreas de Processo | Checklists | Data de Realização
-------------------| ------------| --------------------
-                 |              |
-                 |              |
-                 |              |
-### 4.2 Ações corretivas para Porcentagem de Adequação da Execução
+Comunicação | Registro de Não Conformidades
+----------- | ------------------------------
+Emissor | Gerente da Qualidade
+Receptores | Responsável pela medição
+Mensagem | Dados Referentes as Não Conformidades
+Meio de Comunicação | Registro de Não Conformidades
+Quando | Quando for ocorrer a medição do processo de qualidade
 
-Adequação | Porcentagem | Descrição da Ação Corretiva
----------| ---------------| ---------------------------
-Baixa   | 0 a 40%         | [_Ação corretiva para baixa adequação_]
-Média   | 41 a 75%        | [_Ação corretiva para média adequação_]
-Alta    | 76 a 100%       | [_Ação corretiva para alta adequação_]
+Comunicação | Comunicado de Não Conformidade
+----------- | ------------------------------
+Emissor | Gerente de Qualidade
+Receptores | Todos os envolvidos
+Mensagem | Relatar os envolvidos a existência de uma não conformidade
+Meio de Comunicação | Forma de comunicação que permita o envio da mensagem para os membros relevantes e que mantenha o controle e integridade da mensagem. Podendo ser via e-mail, repositório, ou outros serviços de mensagens nos quais os envolvidos possuam familiaridade.
+Quando | Quando houver necessidade de atentar os envolvidos
 
-### 4.3 Ações corretivas para Porcentagem de Adequação ao Template
+5. Atividades
+---------------------------
 
-Adequação | Porcentagem | Descrição da Ação Corretiva
----------| ---------------| ---------------------------
-Baixa   | 0 a 40%         | [_Ação corretiva para baixa adequação_]
-Média   | 41 a 75%        | [_Ação corretiva para média adequação_]
-Alta    | 76 a 100%       | [_Ação corretiva para alta adequação_]
 
 5. Monitoramento de Resultados
 -------------------------------
