@@ -37,12 +37,23 @@ Processo de software 2015, Plano de Projeto
 Este é um projeto com o propósito unicamente acadêmico, sua finalidade é disceminar o conhecimento nas áreas do MPS.BR, nos níveis G e F, entre os integrantes da equipe.
 
 ### 1.2 Estratégia Organizacional
-Este plano foi definido com o intuíto acadêmido de simular um projeto em uma empresa. O ciclo de vida utilizado como base para os futuros projetos que utilizarem deste plano é o __ciclo de vida em V__, devido a facilidade em encontrar erros durante as primeiras fases, evitando assim, maior custo no futuro.
+Este plano foi definido com o intuíto acadêmido de simular um projeto em uma empresa. O ciclo de vida utilizado como base para os futuros projetos que utilizarem deste plano é o __ciclo de vida em V__, devido a facilidade em encontrar erros durante as primeiras fases, evitando assim, maior custo no futuro conforme a representação abaixo.
+
+![Ciclo de vida V](https://raw.githubusercontent.com/PedroDrim/UFG_PS_2015/master/Anexos/Ciclo%20de%20vida%20V.png)
 
 ### 1.3 Artefatos Esperados
- No desenvolvimento de projetos pela organização deverá haver os artefatos a cada fase de desenvolvimento do produto. Seguindo o ciclo de vida do projeto, deverão ser apresentados ao longo do projeto documentos acerca do desenvolvimento de cada fase. Os resultados de cada fase deverão ser documentados para controle da organização, facilidade em manutenção posterior, organização no desenvolvimento.
- 
-	Na etapa de especificação dos requisitos do software deverão ser gerados os artefatos relativos à: elicitação dos requisitos junto aos stakeholders; rastreabilidade dos requisitos deve ser realizada e documentada; deverá haver um relatório com as mudanças nos requisitos ao longo do desenvolvimento.
+No desenvolvimento de projetos pela organização deverá haver os artefatos a cada fase de desenvolvimento do produto. Seguindo o ciclo de vida do projeto, deverão ser apresentados ao longo do projeto documentos acerca do desenvolvimento de cada fase. Os resultados de cada fase deverão ser documentados para controle da organização, facilidade em manutenção posterior, organização no desenvolvimento, conforme o representado pela EAP abaixo.
+
+[Link da EAP]
+
+Vale ressaltar que para cada etapa do ciclo de vida há um conjunto de métodos de validação e validação de forma a garantir a qualidade dos artefatos gerados, conforme definido no [Plano de Qualidade](http://github.com)
+
+### 1.4 Detalhamento dos Artefatos
+
+[Á concluir...]
+
+
+Na etapa de especificação dos requisitos do software deverão ser gerados os artefatos relativos à: elicitação dos requisitos junto aos stakeholders; rastreabilidade dos requisitos deve ser realizada e documentada; deverá haver um relatório com as mudanças nos requisitos ao longo do desenvolvimento.
 	
 	Na etapa de projeto preliminar deverão ser gerados os artefatos relativos à: Gerência de projeto, tais como plano de projeto, cronogramas, marcos de projeto, análise de custo e viabilidade, gerenciamento e controle de riscos.
 	
@@ -52,9 +63,6 @@ Este plano foi definido com o intuíto acadêmido de simular um projeto em uma e
 	
 	Nas etapas de testes deverão ser gerados relatórios relativos a realização dos testes em cada fase, os testes realizados na fase de especificação (teste de qualificação de requisitos) deve ser documentada e gerenciada, os testes realizados na fase de projeto (teste de integração e teste unitário) deverão gerar relatórios com os resultados obtidos nos testes realizados, deve ser documentado e gerenciado, os testes locais realizados por programadores e desenvolvedores deverão produzir documentação acerca do código, possuindo data de elaboração e versão do código e do produto.
 
-
-### 1.4 Detalhamento dos Artefatos
-[_Seguindo o GPR2 do MPS.BR, os artefatos estimados deverão ser divididos em artefatos menores tornando mais fácil o regenciamento. Nesta seção, todos os artefatos gerados na EAP serão detalhados e classificados quanto a sua importância no projeto._]
 
 ### 1.5 Detalhamento do Ciclo de Vida
 O ciclo de vida definido para este plano é o __ciclo de vida em V__ a sua estruturação no projeto será realizada da seguinte maneira:
@@ -239,5 +247,6 @@ Todos os problemas identificados durante o projeto deverão ser monitorados e ac
 8. Aprovação formal
 ----------------------------
 A aprovação do plano de projeto deverá ser realizada junto aos clientes e/ou stakeholders envolvidos no projeto.
+
 
 
