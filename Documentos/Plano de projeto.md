@@ -237,13 +237,12 @@ R3 | Falta de Internet | Média/Alto | O projeto deverá continuar sendo feito e
 
            Nome             |            Papel           | Responsável por | Competências
 -----------------------------|----------------------------|--------------|---------
-Pedro Henrique Silva Farias    | Gerente de Projetos     | Verificar se o plano de projeto está sendo aplicado corretanmente | [LinkedIn de Pedro]
-Rony Nogueira  | Gerente de Projetos    | Verificar se o plano de projeto está sendo aplicado corretanmente     | [LinkedIn de Rony]
-Milton Araújo   | Gerente de Requisitos          | Levantar e gerenciar os requisitos   | [LinkedIn de Milton]
-Matheus Vani | Analista de Requisitos      | Levantar e anaisar os requisitos     | [LinkedIn de Matheus]
-Thallisson Lopes     | Analista de Requisitos | Levantar e anaisar os requisitos     | [LinkedIn de Thallisson]
-Matheus Lima          | Gerente de qualidade          | Gerar e executar checklists para garantia de qualidade     | [LinkedIn de Matheus Lima]
-Nikolas Mathias     | Gerente de qualidade | Gerar e executar checklists para garantia d qualidade     | [LinkedIn de Nikolas]
+Pedro Henrique Silva Farias    | Gerente de configuração     | Estruturar a estrutura e definir métodos de acesso ao repositório | Aluno do 6* Periodo de Eng. de Software
+Rony Nogueira  | Gerente de Projetos    | Verificar se o plano de projeto está sendo aplicado corretanmente     | Aluno do 4* Periodo de Eng. de Software
+Milton Araújo   | Gerente de Requisitos          | Levantar e gerenciar os requisitos   | Aluno do 6* Periodo de Eng. de Software
+Thallisson Lopes     | Analista de Requisitos | Levantar e anaisar os requisitos     | Aluno do 4* Periodo de Eng. de Software
+Matheus Lima          | Gerente de qualidade          | Gerar e executar checklists para garantia de qualidade     | Aluno do 6* Periodo de Eng. de Software
+Nikolas Mathias     | Gerente de qualidade | Gerar e executar checklists para garantia d qualidade     | Aluno do 6* Periodo de Eng. de Software
 
 ### 4.2 Riscos em RH
 
@@ -278,7 +277,7 @@ Todos os artefatos do projeto deverão ser ter suas modificações monitoradas b
 
 Os interessados também deverão ser informados das modificações. Para auxiliar o monitoramento, um relatório contendo a ocorrência dos riscos deverá existir sendo feito com base no [template de riscos](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Templates/%5BTemplate%5D%20Relat%C3%B3rio%20de%20riscos.md)
 
-[_Linkar os relatórios de monitoramento._]
+![Relatório de riscos](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Documentos/Relatorio%20de%20riscos.md)
 
 7. Manutenção
 -------------
