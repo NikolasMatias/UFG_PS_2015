@@ -35,6 +35,7 @@ Processo de software 2015, Plano de Projeto
 
 ### 1.1 Objetivos
 Este é um projeto com o propósito unicamente acadêmico, sua finalidade é disceminar o conhecimento nas áreas do MPS.BR, nos níveis G e F (apenas qualidade), entre os integrantes da equipe.
+
 O software em que este projeto será aplicado é o **MR. Imune**, um programa multi-plataforma que apresenta o calendário de vacinas disponibilizadas pelo ministério da Saúde e o histórico das vacinas que o usuário já tomou.
 
 ### 1.2 Estratégia Organizacional
@@ -47,22 +48,27 @@ Após cada etapa será realizado uma análise da qualidade dos produtos gerados 
 ### 1.3 Artefatos Esperados
 No desenvolvimento de projetos pela organização deverá haver os artefatos a cada fase de desenvolvimento do produto. Seguindo o ciclo de vida do projeto, deverão ser apresentados ao longo do projeto documentos acerca do desenvolvimento de cada fase. Os resultados de cada fase deverão ser documentados para controle da organização, facilidade em manutenção posterior, organização no desenvolvimento, conforme o representado pela EAP abaixo.
 
-[Link da EAP]
+![EAP](https://raw.githubusercontent.com/PedroDrim/UFG_PS_2015/master/Anexos/EAP.png)
 
 ### 1.4 Detalhamento dos Artefatos
 
 O artefato gerado durante a atividade de planejamento da gerência de projeto é o **Plano de projeto**:
+
 Este artefato é responsável por definir cronogramas e custos esperados durante o projeto, bem como definir o ciclo de vida utilizado e especificar quais artefatos serão esperados em cada etapa.
 
 Os artefatos gerados durante a atividade de procedimentos da gerência de projeto são os **Relatórios de riscos** e **Relatórios de manutenção**:
+
 O **relatório de risco** é responsável por armazenar quaisquér ocorrencia de riscos esperados, bem como as técnicas utilizadas para contornar a situação, quais as áreas afetadas por esse risco e quais os seus responsáveis.
+
 O **relatório de manutenção** é responsável por armazenar quaisquér mudanças nos artefatos gerados (correções de não-conformidade, adequações de textos, correções de links), bem como as áreas afetadas por essa modificação e quais os seus responsáveis.
 
 
 O artefato gerado durante a atividade de planejamento da gerencia de configuração é o **Plano de gerência de configuração**:
+
 Este artefato é responsável por definir como será feita a nomenclatura e a organização dos objetos que compõem o projeto, bem como as formas de armazenamento e acessibilidade.
 
 O artefato gerado durante a atividade de execução da gerência de configuração são as **Notas de release**:
+
 Este artefato é responsável por compilar as modificações ocorridas no software de um marco para outro de forma a explicar para o usuário, de forma simples, quais as modificações que ocorreram no software.
 
 ### 1.5 Detalhamento do Ciclo de Vida
