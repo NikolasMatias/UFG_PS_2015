@@ -35,6 +35,7 @@ GCO | Gerencia de configuração
 RF | Requisito funcional
 RNF | Requisito não funcional
 RN | Regra de negócio
+UC | User Case(Caso de Uso)
 CT | Casos de teste
 SD | Software design
 
@@ -71,7 +72,7 @@ Templates | Armazenar os templates dos documentos esperados conforme os planos d
 ## 3.1 Métodos de Identificação 
 Parte do projeto abordado | Método de Identificação
 -------------------------- | ----------------------
-Requisitos | Os Requisitos serão devidos da seguinte forma. Primeiramente por padrão será colocado as siglas RF, RFN e RN e na frente desses valores terá um número respectivos à ordenação dos requisitos. 
+Requisitos | Os Requisitos serão devidos da seguinte forma. Primeiramente por padrão será colocado as siglas RF, RFN, RN e UC e na frente desses valores terá um número respectivos à ordenação dos requisitos. 
 Software Design | O software design será abreviado para SD e suas alterações serão colocadas como números. 
 Código  |Quando o código sofrer uma grande alteração que comprometa todo o sistema será colocada no primeiro espaço a esqueda. Ex: Y.0  Quando algum subsistema precisar ser alterado o software colocara no segundo número. Ex: 1.X  Caso seja alguma alteração ou melhoria será colocado no terceiro. Ex: 1.1.Z. Bugs serão resolvidos na quarta linha. Ex.: 1.1.1.W  Sendo a ordenação final a seguinte Y.X.Z.W.
 Testes |  Os casos de testes será usado em sigla CT seguido de algum número que represente a sua posição.
