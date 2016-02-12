@@ -99,7 +99,7 @@ Quando | Quando houver necessidade de atentar os envolvidos
 
 5. Macro Fluxo
 --------------------
-![Imagem do Macro Fluxo](https://i.imgsafe.org/c9c3b1c.png)
+![Imagem do Macro Fluxo](https://raw.githubusercontent.com/PedroDrim/UFG_PS_2015/master/Anexos/macro-fluxo-qualiadde.png)
 
 6. Atividades
 ---------------------------
