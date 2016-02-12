@@ -8,8 +8,6 @@ Processo de software 2015, Gerência de Configuração (GCO).
 * 1. [Introdução] (#1-introdução)
     * 1.1 [Finalidade] (#1.1-finalidade)
     * 1.2 [Escopo] (#1.2-escopo)
-    * 1.3 [Artefatos Esperados] (#1.3-artefatos-esperados)
-    * 1.4 [Detalhamento dos Artefatos] (#1.4-detalhamento-dos-artefatos)
     * 1.3 [Definição de Siglas e Nomenclaturas] (#1.3-definição-de-siglas-e-nomenclaturas)
 * 2. [Gerenciamento de Configuração de Software] (#2-gerenciamento-de-configuração-de-software)
     * 2.1 [Organização e Responsabilidades] (#2.1-organização-e-responsabilidades)
@@ -30,13 +28,7 @@ Este documento tem como finalidade demonstrar como será realizado o Gerenciamen
 ## 1.2 Escopo 
 Este documento vai abordar a Gerência de Configuração. Seu objetivo será explicar como será feita a nomenclatura e a organização dos objetos que compõem o projeto, bem como as formas de armazenamento e acessibilidade.
 
-## 1.3 Artefatos Esperados
-Durante a etapa de processo teremos o plano de gerencia de configuração, enquanto que durante a fase de projeto teremos uma nota de release para cada baseline.
-
-## 1.4 Detalhamento dos Artefatos
-[_Detalhar os artefatos definidos acima_]
-
-## 1.5 Definição de Siglas e Nomenclaturas 
+## 1.3 Definição de Siglas e Nomenclaturas 
 Siglas e Nomenclaturas | Definição
 --------------- | --------------------
 GCO | Gerencia de configuração

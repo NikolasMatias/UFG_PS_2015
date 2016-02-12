@@ -34,50 +34,61 @@ Processo de software 2015, Plano de Projeto
 ---------------------
 
 ### 1.1 Objetivos
-Este é um projeto com o propósito unicamente acadêmico, sua finalidade é disceminar o conhecimento nas áreas do MPS.BR, nos níveis G e F, entre os integrantes da equipe.
+Este é um projeto com o propósito unicamente acadêmico, sua finalidade é disceminar o conhecimento nas áreas do MPS.BR, nos níveis G e F (apenas qualidade), entre os integrantes da equipe.
+O software em que este projeto será aplicado é o **MR. Imune**, um programa multi-plataforma que apresenta o calendário de vacinas disponibilizadas pelo ministério da Saúde e o histórico das vacinas que o usuário já tomou.
 
 ### 1.2 Estratégia Organizacional
 Este plano foi definido com o intuíto acadêmido de simular um projeto em uma empresa. O ciclo de vida utilizado como base para os futuros projetos que utilizarem deste plano é o __ciclo de vida em V__, devido a facilidade em encontrar erros durante as primeiras fases, evitando assim, maior custo no futuro conforme a representação abaixo.
 
 ![Ciclo de vida V](https://raw.githubusercontent.com/PedroDrim/UFG_PS_2015/master/Anexos/Ciclo%20de%20vida%20V.png)
 
+Após cada etapa será realizado uma análise da qualidade dos produtos gerados de forma a encontrar não-conformidades á serem corrigidas.
+
 ### 1.3 Artefatos Esperados
 No desenvolvimento de projetos pela organização deverá haver os artefatos a cada fase de desenvolvimento do produto. Seguindo o ciclo de vida do projeto, deverão ser apresentados ao longo do projeto documentos acerca do desenvolvimento de cada fase. Os resultados de cada fase deverão ser documentados para controle da organização, facilidade em manutenção posterior, organização no desenvolvimento, conforme o representado pela EAP abaixo.
 
 [Link da EAP]
 
-Vale ressaltar que para cada etapa do ciclo de vida há um conjunto de métodos de validação e validação de forma a garantir a qualidade dos artefatos gerados, conforme definido no [Plano de Qualidade](http://github.com)
-
 ### 1.4 Detalhamento dos Artefatos
 
-[Á concluir...]
+O artefato gerado durante a atividade de planejamento da gerência de projeto é o **Plano de projeto**:
+Este artefato é responsável por definir cronogramas e custos esperados durante o projeto, bem como definir o ciclo de vida utilizado e especificar quais artefatos serão esperados em cada etapa.
+
+Os artefatos gerados durante a atividade de procedimentos da gerência de projeto são os **Relatórios de riscos** e **Relatórios de manutenção**:
+O **relatório de risco** é responsável por armazenar quaisquér ocorrencia de riscos esperados, bem como as técnicas utilizadas para contornar a situação, quais as áreas afetadas por esse risco e quais os seus responsáveis.
+O **relatório de manutenção** é responsável por armazenar quaisquér mudanças nos artefatos gerados (correções de não-conformidade, adequações de textos, correções de links), bem como as áreas afetadas por essa modificação e quais os seus responsáveis.
 
 
-Na etapa de especificação dos requisitos do software deverão ser gerados os artefatos relativos à: elicitação dos requisitos junto aos stakeholders; rastreabilidade dos requisitos deve ser realizada e documentada; deverá haver um relatório com as mudanças nos requisitos ao longo do desenvolvimento.
-	
-	Na etapa de projeto preliminar deverão ser gerados os artefatos relativos à: Gerência de projeto, tais como plano de projeto, cronogramas, marcos de projeto, análise de custo e viabilidade, gerenciamento e controle de riscos.
-	
-	Na etapa de projeto detalhado deverão ser gerados os artefatos relativos à: Gerência de áreas do projeto, tais como plano de gerência de requisitos, plano de qualidade e plano de gerência de configuração.
-	
-	Na etapa de codificação deverão ser gerados os artefatos relativos à: codificação; documentação dos códigos; testes locais realizados pelo programador.
-	
-	Nas etapas de testes deverão ser gerados relatórios relativos a realização dos testes em cada fase, os testes realizados na fase de especificação (teste de qualificação de requisitos) deve ser documentada e gerenciada, os testes realizados na fase de projeto (teste de integração e teste unitário) deverão gerar relatórios com os resultados obtidos nos testes realizados, deve ser documentado e gerenciado, os testes locais realizados por programadores e desenvolvedores deverão produzir documentação acerca do código, possuindo data de elaboração e versão do código e do produto.
+O artefato gerado durante a atividade de planejamento da gerencia de configuração é o **Plano de gerência de configuração**:
+Este artefato é responsável por definir como será feita a nomenclatura e a organização dos objetos que compõem o projeto, bem como as formas de armazenamento e acessibilidade.
 
+O artefato gerado durante a atividade de execução da gerência de configuração são as **Notas de release**:
+Este artefato é responsável por compilar as modificações ocorridas no software de um marco para outro de forma a explicar para o usuário, de forma simples, quais as modificações que ocorreram no software.
 
 ### 1.5 Detalhamento do Ciclo de Vida
 O ciclo de vida definido para este plano é o __ciclo de vida em V__ a sua estruturação no projeto será realizada da seguinte maneira:
 
-* __Etapa 1:__ Será realizada uma análise dos requisitos do projeto bem como técnicas de verificação e validação destes requisitos.
-   * __Artefatos gerados na Etapa 1:__
+Etapa | Ciclo de vida
+------|--------------
+1     | Levantamento e detalhamento de requisitos
+2     | Definição de arquitetura
+3     | Detalhamento baixo nível
+4     | Construção
+
+* __Etapa 1:__ Será realizada o levantamento e análise dos requisitos do projeto bem como técnicas de verificação e validação destes requisitos.
+   * __Artefatos gerados na Etapa 1:__ 
 
 * __Etapa 2:__ Será realizada a transição dos requisitos para a arquitetura bem como técnicas de verificação e validação para essa nova arquitetura.
-   * __Artefatos gerados na Etapa 2:__
+   * __Artefatos gerados na Etapa 2:__ Artefatos gerados na etapa 1 além dos diagramas de componentes e classe (não necessário para este projeto) e das notas de release do final da etapa 2.
 
 * __Etapa 3:__ Será realizada a construção do projeto bem como os testes que serão aplicados de forma a validar e verificar o produto.
-   * __Artefatos gerados na Etapa 3:__
+   * __Artefatos gerados na Etapa 3:__ Artefatos gerados nas etapas 1 e 2 além dos diagramas de sequência e dos primeiros protótipos (não necessário para este projeto) e das notas de release do final da etapa 3.
    
 * __Etapa 4:__ Por fim o produto-final será implementado.
-   * __Artefatos gerados na Etapa 4:__
+   * __Artefatos gerados na Etapa 4:__ Artefatos gerados nas etapas 1,2 e 3 além do código-fonte completo do projeto (não necessário para este projeto) e das notas de release do final da etapa 4. 
+
+* __Durante a execução:__ Esta etapa ocorrerá simultaneamente com as outras etapas.
+   * __Artefatos gerados durante a execução:__ Checklist de garantia de qualidade, relatórios de riscos e relatórios de manutenção.
 
 ### 1.6 Estimativa de esforço
 O esforço gasto em uma atividade é definida com base no __tempo__ gasto em média, o __custo__ gasto para equipamentos e preparo; e com o tamanho e tipo do __escopo__ da atividade a ser realizada. O calculo para definir o esforço é realizado conforme a tabela abaixo:
@@ -213,18 +224,14 @@ R8 | Mudança no cliente | Alta | O escopo do projeto será remanejado
 
 ### 5.1 Estrutura de Projeto
 Para o projeto a ser desenvolvido será necessário um ambiente de desenvolvimento que utilize ferramentas de código livre ou open source, para gerência e controle do projeto será necessário um repositório para controle de versões do produto em desenvolvimento. O repositório deverá ser privado para acesso externo aos membros da equipe de desenvolvimento.
-	A comunicação entre os participantes do projeto que será desenvolvido deverá ser realiza através de chats online ou pessoalmente, funcionando de acordo com a quantidade de pessoas envolvidas no projeto. 
-	Para cada projeto deverá ter reuniões a cada semana, de aproximadamente 15 min para discutir com a equipe o andamento do projeto, ao final de cada reunião deverá ser realizado a elaboração de um relatório contendo os fatos discutidos.
-	Para os clientes deverá ser disponibilizado uma área para acesso aos artefatos gerados durante o desenvolvimento, essa área deverá ser controlada.
 
 ### 5.2 Armazenamento de Artefatos
 Os artefatos produzidos durante o desenvolvimento do produto deverão ser acessados apenas por membros da equipe de desenvolvimento e cliente envolvido. O cliente possuirá uma área de acesso para ver o andamento do projeto, nesse ambiente terá disponível os relatórios e documentos relativos ao desenvolvimento, não serão acessíveis aos clientes os códigos-fonte do projeto.
-	Para os membros da equipe estará disponível o repositório do projeto, o qual terá o acesso privado, neste repositório do projeto terão os documentos de cada fase do projeto, projetos e códigos-fonte. Gerentes poderão ter acesso a qualquer projeto desenvolvido na empresa.
 
 [_Linkar plano de gerência de configuração_]
 
 ### 5.3 Metricas de Acessibilidade
-[_As métricas utilizadas para definir acessibilidade dos artefatos deverão ser definidos._]
+Cada membro responsável por uma área deverá modificar apenas os artefatos referentes a tal área específica.
 
 [_Linkar plano de gerência de configuração_]
 
