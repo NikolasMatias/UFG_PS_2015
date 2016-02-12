@@ -46,15 +46,17 @@ A equipe de gerência de configuração será composta por:
 
 Nome | Papel
 --------------- | --------------------
-[nome] | [papel definido]
+Pedro Henrique Silva Farias | Gerênte de configuração
 
 ## 2.2 Ferramentas, Ambiente e Infraestrutura 
 Para um bom Gerenciamento das configurações é necessário utilizar ferramentas que ajudam em todos os seus passos. Sendo elas: 
 
 **Github** – Para o controle de versões online. 
+
 **Git** – Para o controle de versões offline.
 
 Por ser um projeto com cunho educacional a infraestrutura será os próprios computadores pessoais dos integrantes do grupo, tendo acesso a internet e o git instalado, além dos computadores da universidade.
+
 O diretório principal do projeto será composto da seguinte maneira:
 
 Diretório | Finalidade
@@ -82,4 +84,4 @@ O armazenamento será realizado todo no Github para que possa ter uma avaliaçã
 
 ## 4. Marcos e Baselines
 As Baselines serão as interações do ciclo de vida em V conforme definidos no plano de projeto.
-Em cada baseline, deverá ser gerada uma nota de release das mudanças realizadas nos artefatos com base no seguinte template [template].
+Em cada baseline, deverá ser gerada uma nota de release das mudanças realizadas nos artefatos com base no seguinte ![Template de notas de release](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Templates/%5BTemplate%5D%20Notas%20de%20release.md).
