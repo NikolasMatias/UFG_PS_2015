@@ -38,6 +38,10 @@ Este é um projeto com o propósito unicamente acadêmico, sua finalidade é dis
 
 O software em que este projeto será aplicado é o **MR. Imune**, um programa multi-plataforma que apresenta o calendário de vacinas disponibilizadas pelo ministério da Saúde e o histórico das vacinas que o usuário já tomou.
 
+O software possuirá as seguintes funcionalidades:
+
+![Diagrama de caso de uso](https://raw.githubusercontent.com/PedroDrim/UFG_PS_2015/master/Anexos/Mr.%20Imune.v2.png)
+
 ### 1.2 Estratégia Organizacional
 Este plano foi definido com o intuíto acadêmido de simular um projeto em uma empresa. O ciclo de vida utilizado como base para os futuros projetos que utilizarem deste plano é o __ciclo de vida em V__, devido a facilidade em encontrar erros durante as primeiras fases, evitando assim, maior custo no futuro conforme a representação abaixo.
 
@@ -63,6 +67,15 @@ O **relatório de risco** é responsável por armazenar quaisquér ocorrencia de
 O **relatório de manutenção** é responsável por armazenar quaisquér mudanças nos artefatos gerados (correções de não-conformidade, adequações de textos, correções de links), bem como as áreas afetadas por essa modificação e quais os seus responsáveis.
 
 
+O artefato gerado durante a atividade de planejamento da garantia de qualidade é o **Processo de garantia de qualidade**:
+
+Este artefato é responsável por definir como será feita a garantia da qualidade nos artefatos selecionados.
+
+O artefato gerado durante a atividade de procedimentos da garantia de qualidade são os **Checklist de garantia de qualidade**:
+
+Este artefato é responsável por verificar e validar os artefatos selecionados, assim como especificar quais não-conformidades foram encontradas.
+
+
 O artefato gerado durante a atividade de planejamento da gerencia de configuração é o **Plano de gerência de configuração**:
 
 Este artefato é responsável por definir como será feita a nomenclatura e a organização dos objetos que compõem o projeto, bem como as formas de armazenamento e acessibilidade.
@@ -70,6 +83,11 @@ Este artefato é responsável por definir como será feita a nomenclatura e a or
 O artefato gerado durante a atividade de execução da gerência de configuração são as **Notas de release**:
 
 Este artefato é responsável por compilar as modificações ocorridas no software de um marco para outro de forma a explicar para o usuário, de forma simples, quais as modificações que ocorreram no software.
+
+
+O artefato gerado durante a atividade de execução da construção é o **Código-fonte**:
+
+Este artefato deverá conter o código do produto, de forma que fique de acordo com o definido pela equipe de requisitos.
 
 ### 1.5 Detalhamento do Ciclo de Vida
 O ciclo de vida definido para este plano é o __ciclo de vida em V__ a sua estruturação no projeto será realizada da seguinte maneira:
@@ -82,7 +100,7 @@ Etapa | Ciclo de vida
 4     | Construção
 
 * __Etapa 1:__ Será realizada o levantamento e análise dos requisitos do projeto bem como técnicas de verificação e validação destes requisitos.
-   * __Artefatos gerados na Etapa 1:__ 
+   * __Artefatos gerados na Etapa 1:__ Documento de requisitos, além das notas de release do final da etapa 1.
 
 * __Etapa 2:__ Será realizada a transição dos requisitos para a arquitetura bem como técnicas de verificação e validação para essa nova arquitetura.
    * __Artefatos gerados na Etapa 2:__ Artefatos gerados na etapa 1 além dos diagramas de componentes e classe (não necessário para este projeto) e das notas de release do final da etapa 2.
@@ -136,19 +154,35 @@ Entre __1 e 12__ | Baixo
 
 2. Custo do Projeto
 --------------------
-[_Por definição, custo pode ser tanto "cronológico" quanto "monetário". Seguindo o GPR5 do MPS.BR, nesta seção deverá ser definido o custo do projeto bem como os marcos e pontos de controle_]
 
 ### 2.1 Cronograma
-[_O cronograma poderá ser definido por meio da EAP, presente no tópico 1.3, em conjunto com o esforço estimado, presente no tópico 1.6. O cronograma deverá estimar quantas horas serão gastas em cada atividade do projeto._]
+O cronograma será definido com base no ciclo de vida utilizado no projeto e possuirá um tempo total de 6 meses, as atividades serão divididas de forma a cumprir esse tempo estipulado conforme a tabela abaixo:
+
+Etapa | Tempo estipulado
+------|------------------
+Levantamento / Detalhamento de requisitos | 1 Mês 
+Definição / Detalhamento de arquitetura | 1 Mês
+Construção | 4 Meses
 
 ### 2.2 Recursos
-[_Os recursos, assim como o cronograma, poderão ser definidos pela EAP, presente no tópico 1.3, em conjunto com o esforço estimado, presente no tópico 1.6. Os recursos gastos poderão ser detalhados._]
+O Mr. Imune é um projeto acadêmico que não possuirá custos monetários, devido ao uso de ferramentas open source e por ser um projeto puramente de cunho acadêmico.
+
+Neste software serão utilizadas as seguintes ferramentas:
+
+Nome | Finalidade
+-----|-----------
+![Git](https://git-scm.com/downloads) | Controle de versão pelo desktop.
+![Github](https://github.com/) | Controle de versão pelo navegador.
+![Draw.io](https://www.draw.io/) | Desenho dos diagramas, Eap e macrofluxos.
+![Visual Studio Code](https://code.visualstudio.com/) / ![Atom](https://atom.io/) / ![Sublime text](http://www.sublimetext.com/3) | Edição de códigos
+![Skype](http://www.skype.com/pt-br/download-skype/skype-for-computer/) / ![Hangout](https://plus.google.com/u/0/) | Reuniões.
+![Android Studio](http://developer.android.com/intl/pt-br/sdk/index.html) / ![Eclipse](https://eclipse.org/downloads/) | Ide's
 
 ### 2.3 Pontos de controle
 
 Levando em conta o ciclo de vida em uso, foram definidos como pontos de controle o período de transição entre as fases do ciclo de vida V.
 
-Após cada etapa serão realizados os testes de verificação e validação nos artefatos gerados conforme o tópico de [Detalhamento do Ciclo de Vida](#15-detalhamento-do-Ciclo-de-Vida) e não conformidades deverão ser identificadas e monitoradas até a sua conclusão.
+Após cada etapa serão realizados os testes de verificação e validação nos artefatos gerados conforme o tópico de [Detalhamento do Ciclo de Vida](#15-detalhamento-do-Ciclo-de-Vida) e não-conformidades deverão ser identificadas e monitoradas até a sua conclusão.
 
 Nessa fase também serão realizados reuniões de forma a verificar o andamento do projeto na opnião dos integrantes de forma a manter o compromisso entre a equipe.
 
@@ -232,14 +266,10 @@ R8 | Mudança no cliente | Alta | O escopo do projeto será remanejado
 Para o projeto a ser desenvolvido será necessário um ambiente de desenvolvimento que utilize ferramentas de código livre ou open source, para gerência e controle do projeto será necessário um repositório para controle de versões do produto em desenvolvimento. O repositório deverá ser privado para acesso externo aos membros da equipe de desenvolvimento.
 
 ### 5.2 Armazenamento de Artefatos
-Os artefatos produzidos durante o desenvolvimento do produto deverão ser acessados apenas por membros da equipe de desenvolvimento e cliente envolvido. O cliente possuirá uma área de acesso para ver o andamento do projeto, nesse ambiente terá disponível os relatórios e documentos relativos ao desenvolvimento, não serão acessíveis aos clientes os códigos-fonte do projeto.
-
-[_Linkar plano de gerência de configuração_]
+Os artefatos produzidos durante o desenvolvimento do produto deverão ser acessados apenas por membros da equipe de desenvolvimento e cliente envolvido. O cliente possuirá uma área de acesso para ver o andamento do projeto, nesse ambiente terá disponível os relatórios e documentos relativos ao desenvolvimento, não serão acessíveis aos clientes os códigos-fonte do projeto, conforme o ![Plano de gerência de configuração](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Documentos/Plano%20de%20Ger%C3%AAncia%20de%20configura%C3%A7%C3%B5es.md).
 
 ### 5.3 Metricas de Acessibilidade
-Cada membro responsável por uma área deverá modificar apenas os artefatos referentes a tal área específica.
-
-[_Linkar plano de gerência de configuração_]
+Cada membro responsável por uma área deverá modificar apenas os artefatos referentes a tal área específica, conforme o ![Plano de gerência de configuração](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Documentos/Plano%20de%20Ger%C3%AAncia%20de%20configura%C3%A7%C3%B5es.md).
 
 6. Monitoramento
 ----------------
