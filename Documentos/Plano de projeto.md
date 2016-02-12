@@ -38,7 +38,7 @@ Este é um projeto com o propósito unicamente acadêmico, sua finalidade é dis
 
 O software em que este projeto será aplicado é o **MR. Imune**, um programa multi-plataforma que apresenta o calendário de vacinas disponibilizadas pelo ministério da Saúde e o histórico das vacinas que o usuário já tomou.
 
-O software possuirá as seguintes funcionalidades:
+O software possuirá as seguintes funcionalidades conforme o diagrama de caso de uso abaixo:
 
 ![Diagrama de caso de uso](https://raw.githubusercontent.com/PedroDrim/UFG_PS_2015/master/Anexos/Mr.%20Imune.v2.png)
 
