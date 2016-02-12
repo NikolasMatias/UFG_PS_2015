@@ -36,7 +36,7 @@ Processo de software 2015, [Template]Plano de gerência de requisitos
 
 ## 1. Introdução
 
-Este documento tem como objetivo apresentar o escopo, Requisitos Funcionais e não funcionais, os usuários e tudo que envolva o processo de Engenharia de Requisitos para o programa Mr. Imune.
+Este documento tem como objetivo apresentar o escopo, Requisitos Funcionais, Não Funcionais, Regras de Negócio e Casos de Uso os usuários e tudo que envolva o processo de Engenharia de Requisitos para o programa Mr. Imune.
 
 ### 1.1 Objetivos
 
@@ -72,22 +72,26 @@ Aqui será descrito a organização do documento de requisitos:
 
 ### 1.4 Definição de Siglas e Nomenclaturas
 
+Siglas, Acronimos, Nomeclaturas e Abreviações | Definições
+-------------------------------------------- | ----------------
+Letalidade  | O quão mortal é uma doença
+Prevalência | O tanto que a doença está se espalhando em um determinado período de tempo.
+RF | Requisito Funcional
+RNF | Requisito Não Funcional
+RN | Regra de Negócio
+UC | User Case(Caso de Uso)
 
 
 ## 2. Descrição do problema e do sistema
 -----------------------------------------
 
-[_Nesta seção o sistema objeto da especificação de requisitos deve ser descrito. O domínio do problema que deverá ser resolvido pelo sistema deve ser explicado e também as características específicas do problema no contexto da empresa em que o sistema deverá ser utilizado. As subseções seguintes podem ser colocadas no documento EOR para separar cada conteúdo específico, mas também pode ser usado um estilo de texto sem separação de subseções desde que todo o conteúdo seja coberto._]
-
 ### 2.1 Identificação e missão do Sistema
 
-[_Identificar o sistema objeto da especificação de requisitos e definir em poucas palavras qual é a missão do sistema que está sendo considerado neste documento._]
+O sistema é o Mr. Imune que tem como objetivo transformar o histórico de vacinas da população de um meio fisico para digital.
 
 ### 2.2 Domínio do problema e contexto de sua aplicação
 
-_A descrição do domínio do problema deve complementar e detalhar a visão geral do domínio do problema identificando o contexto deste problema no ambiente alvo (ambiente do cliente alvo)._
-_Exemplo:_
-[_Suponha que o domínio do problema seja a venda de produtos em um comércio varejista. Esta seção deverá explicar em que consiste o problema de vender produtos em uma empresa que atua no comércio varejista, ou seja, descrever genericamente quais são os processos de negócio envolvidos e seus objetivos. Além disso, o problema deve ser contextualizado mostrando as características específicas do problema na empresa alvo._]
+Atualmente a população anda utilizando de um meio fisico, que no caso seria o papel, para organizar as vacinas que tomou. O problema é que a pessoa pode acabar perdendo o documento e as pessoas responsáveis pelo campo da saúde não tem controle do que a pessoa tomou nesses casos. O Sistema ajudará nesse ponto, deixando as informações da população segura, de modo que não se perca caso ocorra algo.
 
 ### 2.3 Descrição dos interessados do sistema
 
@@ -95,7 +99,23 @@ _Descrever os perfis de cada interessado envolvido com o sistema._
 
 | Interessado(s) 	| Descrição 	|
 |:----------------:	|---------	|
-| [_Nome do perfil do interessado. Por exemplo: (cliente, atendente, vendedor, gerente comercial, etc.)_] | [_Descrever o perfil do interessado e como se espera que seja sua interação com o sistema direta ou indiretamente. Por exemplo, o vendedor da loja é a pessoa que atende os clientes e registra as vendas que são feitas._] |
+| Registrador | Pessoa que faz registro inicial, no momento da emissão da certidão de nascimento, ou nos postos serviço de atendimento ao usuário |
+
+| Interessado(s) 	| Descrição 	|
+|:----------------:	|---------	|
+| Paciente | pessoa que pode acessar a qualquer momento o seu histórico de vacinas na internet |
+
+| Interessado(s) 	| Descrição 	|
+|:----------------:	|---------	|
+| Agente de saúde | pessoa que pode acessar e registrar as vacinas assim que o paciente é imunizado. |
+
+| Interessado(s) 	| Descrição 	|
+|:----------------:	|---------	|
+| Administrador de secretaria | Profissional da Secretaria de Saúde Estadual responsável pelo calendário anual de vacinas. |
+
+| Interessado(s) 	| Descrição 	|
+|:----------------:	|---------	|
+|Administrador Geral |A pessoa escolhida pelo Ministério da saúde para poder servir como a autoridade suprema ao que se refere ao sistema. |
 
 ## 3. Requisitos e restrições não funcionais 
 --------------------------------------------
