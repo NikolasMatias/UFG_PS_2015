@@ -171,12 +171,12 @@ Neste software serão utilizadas as seguintes ferramentas:
 
 Nome | Finalidade
 -----|-----------
-![Git](https://git-scm.com/downloads) | Controle de versão pelo desktop.
-![Github](https://github.com/) | Controle de versão pelo navegador.
-![Draw.io](https://www.draw.io/) | Desenho dos diagramas, Eap e macrofluxos.
-![Visual Studio Code](https://code.visualstudio.com/) / ![Atom](https://atom.io/) / ![Sublime text](http://www.sublimetext.com/3) | Edição de códigos
-![Skype](http://www.skype.com/pt-br/download-skype/skype-for-computer/) / ![Hangout](https://plus.google.com/u/0/) | Reuniões.
-![Android Studio](http://developer.android.com/intl/pt-br/sdk/index.html) / ![Eclipse](https://eclipse.org/downloads/) | Ide's
+[Git](https://git-scm.com/downloads) | Controle de versão pelo desktop.
+[Github](https://github.com/) | Controle de versão pelo navegador.
+[Draw.io](https://www.draw.io/) | Desenho dos diagramas, Eap e macrofluxos.
+[Visual Studio Code](https://code.visualstudio.com/) / [Atom](https://atom.io/) / [Sublime text](http://www.sublimetext.com/3) | Edição de códigos
+[Skype](http://www.skype.com/pt-br/download-skype/skype-for-computer/) / [Hangout](https://plus.google.com/u/0/) | Reuniões.
+[Android Studio](http://developer.android.com/intl/pt-br/sdk/index.html) / [Eclipse](https://eclipse.org/downloads/) | Ide's
 
 ### 2.3 Pontos de controle
 
@@ -265,10 +265,10 @@ R8 | Mudança no cliente | Alta | O escopo do projeto será remanejado
 Para o projeto a ser desenvolvido será necessário um ambiente de desenvolvimento que utilize ferramentas de código livre ou open source, para gerência e controle do projeto será necessário um repositório para controle de versões do produto em desenvolvimento. O repositório deverá ser privado para acesso externo aos membros da equipe de desenvolvimento.
 
 ### 5.2 Armazenamento de Artefatos
-Os artefatos produzidos durante o desenvolvimento do produto deverão ser acessados apenas por membros da equipe de desenvolvimento e cliente envolvido. O cliente possuirá uma área de acesso para ver o andamento do projeto, nesse ambiente terá disponível os relatórios e documentos relativos ao desenvolvimento, não serão acessíveis aos clientes os códigos-fonte do projeto, conforme o ![Plano de gerência de configuração](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Documentos/Plano%20de%20Ger%C3%AAncia%20de%20configura%C3%A7%C3%B5es.md).
+Os artefatos produzidos durante o desenvolvimento do produto deverão ser acessados apenas por membros da equipe de desenvolvimento e cliente envolvido. O cliente possuirá uma área de acesso para ver o andamento do projeto, nesse ambiente terá disponível os relatórios e documentos relativos ao desenvolvimento, não serão acessíveis aos clientes os códigos-fonte do projeto, conforme o [Plano de gerência de configuração](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Documentos/Plano%20de%20Ger%C3%AAncia%20de%20configura%C3%A7%C3%B5es.md).
 
 ### 5.3 Metricas de Acessibilidade
-Cada membro responsável por uma área deverá modificar apenas os artefatos referentes a tal área específica, conforme o ![Plano de gerência de configuração](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Documentos/Plano%20de%20Ger%C3%AAncia%20de%20configura%C3%A7%C3%B5es.md).
+Cada membro responsável por uma área deverá modificar apenas os artefatos referentes a tal área específica, conforme o [Plano de gerência de configuração](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Documentos/Plano%20de%20Ger%C3%AAncia%20de%20configura%C3%A7%C3%B5es.md).
 
 6. Monitoramento
 ----------------
@@ -277,7 +277,7 @@ Todos os artefatos do projeto deverão ser ter suas modificações monitoradas b
 
 Os interessados também deverão ser informados das modificações. Para auxiliar o monitoramento, um relatório contendo a ocorrência dos riscos deverá existir sendo feito com base no [template de riscos](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Templates/%5BTemplate%5D%20Relat%C3%B3rio%20de%20riscos.md)
 
-![Relatório de riscos](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Documentos/Relatorio%20de%20riscos.md)
+[Relatório de riscos](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Documentos/Relatorio%20de%20riscos.md)
 
 7. Manutenção
 -------------
