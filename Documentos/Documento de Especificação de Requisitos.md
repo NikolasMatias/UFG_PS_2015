@@ -251,7 +251,8 @@ _Requisitos Funcionais:_
 
 | Ref.     |                          Descrição                       	| Categoria | Prioridade |
 |-------|----------------------------------------------------------|---------------|---------------|
-| [_RFUN 1.1_] | [_Obter e exibir a descrição e valor unitário de um produto a partir de seu código identificador_] | [_Evidente_] | [_Alta_] |
+| RF-01 | Cadastro de novos usuários: No sistema de Cadastro será incluído o usuários de três maneiras:
+ | [_Evidente_] | Alta |
 | [_RFUN 1.2_] | [_Calcular e exibir o total parcial da venda a cada item informado_] | [_Evidente_] | [_Alta_] |
 | [_RFUN 1.3_] | [_Registrar o valor recebido para venda realizada_] | [_Evidente_] | [_Alta_] |
 | [_RFUN 1.4_] | [_Calcular e exibir o troco para o pagamento em dinheiro_] | [_Evidente_] | [_Alta_] |
