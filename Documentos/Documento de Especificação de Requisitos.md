@@ -44,16 +44,11 @@ Este documento tem como objetivo apresentar o escopo, Requisitos Funcionais, Nã
 
 ### 1.1 Objetivos
 
-[_Definir os objetivos do documento._]	
-_Exemplo:_
-_Este documento tem os seguintes objetivos:_
-•	[_Definir os interessados no sistema e as suas necessidades que devem ser satisfeitas pelo sistema a ser desenvolvido;_]
-•	[_Derivar os casos de uso e requisitos do sistema de forma a orientar a equipe de que será responsável pelo seu desenvolvimento;_]	
-•	[_Estabelecer um contrato para negociação e concordância entre todos os interessados;_]	
-•	[_Reduzir retrabalho com projeto, codificação e teste através da especificação rigorosa e completa dos requisitos;_]	
-•	[_Prover uma base para avaliação de prazos e custos de desenvolvimento;_]
-•	[_Facilitar a transferência dos produtos do desenvolvimento para novos usuários, novos clientes, novos ambientes operacionais e novas equipes de desenvolvimento e manutenção;_]	
-•	[_Prover uma base para a evolução futura do sistema a partir de uma versão aprovada (linha de base) deste documento._]	
+•	Definir os interessados no sistema e as suas necessidades que devem ser satisfeitas pelo sistema a ser desenvolvido;
+•	Derivar os casos de uso e requisitos do sistema de forma a orientar a equipe de que será responsável pelo seu desenvolvimento;
+•	Estabelecer um contrato para negociação e concordância entre todos os interessados;
+•	Facilitar a transferência dos produtos do desenvolvimento para novos usuários, novos clientes, novos ambientes operacionais e novas equipes de desenvolvimento e manutenção;	
+•	Prover uma base para a evolução futura do sistema a partir de uma versão aprovada (linha de base) deste documento.	
 
 ### 1.2 Público Alvo
 
@@ -99,8 +94,6 @@ Atualmente a população anda utilizando de um meio fisico, que no caso seria o 
 
 ### 2.3 Descrição dos interessados do sistema
 
-_Descrever os perfis de cada interessado envolvido com o sistema._
-
 | Interessado(s) 	| Descrição 	|
 |:----------------:	|---------	|
 | Registrador | Pessoa que faz registro inicial, no momento da emissão da certidão de nascimento, ou nos postos serviço de atendimento ao usuário |
@@ -122,14 +115,12 @@ _Descrever os perfis de cada interessado envolvido com o sistema._
 |Administrador Geral |A pessoa escolhida pelo Ministério da saúde para poder servir como a autoridade suprema ao que se refere ao sistema. |
 
 ## 3. Requisitos e restrições não funcionais 
---------------------------------------------
 
-[_Elaborar uma lista de todos os requisitos não funcionais. A lista poderá ser dividida por tipo de requisito, mas é importante que os requisitos tenham uma identificação única para que possam ser referenciados sem ambiguidades no futuro._]
 
 ### 3.1 Requisitos de Facilidade de Uso (RFDU)
 
-[RNF001] A ajuda online deve estar acessível de qualquer página do sistema.    
-[RNF003] Não deve ser preciso mais que 3 cliques para executar o requisito funcional [RF010].
+[RNF001] A ajuda deve estar acessível de qualquer página do sistema.    
+[RNF002] Não deve ser preciso mais que 3 cliques para executar o requisito funcional [RF010].
 
 ### 3.2	Requisitos e Restrições de Desempenho (RD)
 
@@ -156,182 +147,207 @@ _Descrever os perfis de cada interessado envolvido com o sistema._
 
 [RNF009] A apresentação do histórico de vacinas deve ser mostrada em um arquivo no formato PDF.
 [RNF010] A apresentação do histórico de vacinas deve ser mostrada em um arquivo no formato PDF.
-[RNF011] Para o usuário que já fez o cadastro usando o RF-001.01 ou RF-001.02 não poderá fazer o Cadastro usando o RF-001-02.
-[RNF012] Referente ao RF-010. Caso uma campanha tenha nível nacional apenas o Administrador Geral poderá ter o poder de criá-la.
+[RNF011] Referente ao RF009. Caso uma campanha tenha nível nacional apenas o Administrador Geral poderá ter o poder de criá-la.
 
 ### 3.8 Requisitos de Padrões (RPAD)
 
-[RNF013] O sistema deve seguir o padrão do Calendário Nacional de Vacina que pode ser encontrado aqui: 
+[RNF012] O sistema deve seguir o padrão do Calendário Nacional de Vacina que pode ser encontrado aqui: 
 http://portalsaude.saude.gov.br/index.php/o-ministerio/principal/leia-mais-o-ministerio/197-secretaria-svs/13600-calendario-nacional-de-vacinacao
 
 ### 3.9 Requisitos de Interoperabilidade (RINT)
 
-[RNF014] O sistema deve se comunicar com o site da Receita Federal para confirmação de CPF.
+[RNF013] O sistema deve se comunicar com o site da Receita Federal para confirmação de CPF.
 
 ### 3.10 Requisitos Éticos (RET)
 
-[RNF015] De acordo com o Ministério da Saúde nenhum dado do usuário poderá ser divulgado a terceiros, salvo perante requerimento da justiça.
+[RNF014] De acordo com o Ministério da Saúde nenhum dado do usuário poderá ser divulgado a terceiros, salvo perante requerimento da justiça.
 
 ### 3.11 Requisitos de Privacidade (RPRIV)
 
-[RNF016] No histórico de vacina do paciente o sistema não deve revelar o nome do funcionário que aplicou a vacina em usuário
+[RNF015] No histórico de vacina do paciente o sistema não deve revelar o nome do funcionário que aplicou a vacina em usuário
 
 ### 3.12 Requisitos de Segurança (RSEG)
 
-[RNF017] O sistema deve criptografar todas as informações trocadas nos RFs: [RF001], [RF002], [RF003], [RF004], [RF005], [RF006], [RF007], [RF008], [RF009].
+[RNF016] O sistema deve criptografar todas as informações trocadas nos RFs: [RF001], [RF002], [RF003], [RF004], [RF005], [RF006], [RF007], [RF008], [RF009].
 
 ## 4. Casos de Uso e Requisitos Funcionais
 ---------------------------------
 
 ### 4.1 Diagramas de Caso de Uso
 
-[_Este espaço deverá mostrar os casos de uso do sistema através de diagrama de caso de uso. Podem ser usados mais de um diagrama para facilitar a visualização e compreensão do leitor caso o número de casos de uso seja considerado grande._]
+![casodeuso](https://raw.githubusercontent.com/PedroDrim/UFG_PS_2015/master/Anexos/Mr.%20Imune.v2.png)
 
 ### 4.2 Descrição de Casos de Uso
 
-_Cada caso de uso deve receber um identificador único, ser categorizado em primário, obrigatório ou opcional e ser descrito em um formato essencial resumido conforme explicado no capítulo 6 da terceira edição do livro “Utilizando UML e Padrões” de Craig Larman._ _Veja o exemplo a seguir:_
-
-[_CSU1- Processar Venda_]
-[_Atores: Vendedor e Cliente_]
+[_CSU1, CSU2, - Cadastro de Paciente e Dependente_]
+[_Atores: Registrador e Paciente Cadastrado_]
 [_Categoria: Primário_]
 [_Descrição:_] 
-[_Este caso de uso acontece quando um cliente chega a um ponto de venda com itens de produtos que deseja adquirir. O caixa usa o sistema para registrar cada item comprado. O sistema vai apresentando um total parcial e uma linha de detalhes à medida que registra cada item. O cliente fornece ao caixa os dados sobre o pagamento que são então validados e registrados pelo sistema. O sistema atualiza o estoque e emite um recibo que é entregue pelo caixa ao cliente. O cliente sai com os itens comprados._]
+[_Estes casos de uso acontecem quando um ator deseja cadastrar um paciente. O registrador pode cadastrar qualquer paciente maior de 18 anos e os respectivos dependentes. O paciente (+18) pode somente se cadastrar e cadastrar seus dependentes. Nota-se que no Mr.Imune a dependência só existe se o paciente for menor de idade. Ao entrar na página de cadastro de pacientes o ator deve informar os dados de acordo com os requisitos funcionais [RF001] e [RF002], após o ator informar os dados e confirmar o cadastro o banco de dados é atualizado e ele é informado se deseja cadastrar um novo paciente ou terminar, caso termine é redirecionado para a página inicial do Mr.Imune, caso deseja efetuar outro cadastro ele é redirecionado para a página de cadastro de paciente._]
 
-_Requisitos Funcionais:_
+[_CSU3, CSU4, CSU5 - Cadastrar, Editar e Apagar Campanha_]
+[_Atores: Agente de Saúde e Administrador Geral_]
+[_Categoria: Primário_]
+[_Descrição:_] 
+[_Estes casos de uso acontecem quando um ator deseja cadastrar ou editar uma campanha. Para cadastrar uma campanha o ator deve informar os dados como no requisito funcional [RF009], ao terminar o cadastro da campanha ele é informado se deseja cadastrar uma nova campanha. Caso o ator deseje cadastrar uma nova campanha ele é redirecionado para a página de cadastro de campanhas, caso termine é redirecionado para a página inicial do Mr.Imune. Para editar uma campanha a mesma precisa estar cadastrada no sistema, ao entrar na página de campanhas ativas o ator pode selecionar a campanha que deseja editar e fazer as alterações que deseja assim como apagar a campanha. Os requisitos funcionais de editar e apagar campanha são: [RF011] [RF012]_]
 
-[RF001] Cadastro de Pacientes 
-O sistema deve permitir que o registrador cadastre novos pacientes maiores de 18 anos e também deve permitir ao paciente se auto cadastrar.
+[_CSU6, CSU7, CSU8 - Editar e Deletar Paciente e Dependente_]
+[_Atores: Administrador Geral, Registrador e Paciente Cadastrado_]
+[_Categoria: Primário_]
+[_Descrição:_] 
+[_Estes casos de uso acontecem quando um paciente deseja editar suas informações, ou quando o cadastro do paciente precisa ser deletado. Ao entrar no perfil o paciente ou o registrador podem editar os dados, após fazer as alterações desejados é requisitado a confirmação onde o registrador ou o paciente deve informar seu login e senha. Se o login e senha estiverem corretos as informações são atualizadas. Para deletar um cadastro de paciente, o Administrador geral deve entrar com seu login e senha, é perguntado se ele deseja mesmo apagar aquele cadastro, se o ator confirmar o cadastro é deletado e o banco de dados é atualizado._]
+
+[_CSU9 - CRUD Cadastrar Funcionários_]
+[_Atores: Administrador Geral_]
+[_Categoria: Primário_]
+[_Descrição:_] 
+[_Este caso de uso acontece quando o ator deseja cadastrar, editar ou deletar um funcionário. Ao entrar com seu login e senha são exibidas abas exclusivas do administrador geral, entre elas a de funcionários, ao entrar na aba de funcionários é exibido uma lista com seus respecitivos nomes e funções, ao clicar no nome do funcionário é exibido suas informações e as opçoes de deletar e editar informações. Caso o administrador geral queira editar ou deletar ele deve confirmar clicando que deseja continuar e digitando seu login e senha. Caso o ator deseje cadastrar, na aba de funcionários é exibido a opção de adicionar funcionário, nela o ator deve informar as informações como no requisito funcional [RF006], após a confirmação de cadastro o banco de dados é atualizado._]
+
+
+[_CSU10 - Cadastro de Vacinas_]
+[_Atores: Administrador de Secretaria e Administrador Geral_]
+[_Categoria: Primário_]
+[_Descrição:_] 
+[_Este caso de uso acontece quando um ator deseja cadastrar uma nova vacina, ele digita o identificador únido da vacina, o qual é fornecido pelo ministério da saúde, se o identificador não existir no sistema é aberto a tela de cadastro onde o ator vai fornecer os dados de acordo com o requisito funcional [RF005]. Após o ator fornecer os dados e confirmar o cadastro o banco de dados é atualizado._]
+
+[_CSU11, CSU12 Editar e Apagar Vacina_]
+[_Atores: Administrador Geral_]
+[_Categoria: Primário_]
+[_Descrição:_] 
+[_Este caso de uso acontece quando o ator deseja apagar ou editar uma vacina. Para apagar uma vacina o ator deve informar seu login e senha e confirmar, após apagar o banco de dados é atualizado. Caso o ator deseje editar informações da vacina ele deve informar seu login e senha e confirmar (após feita as mudanças). Após confirmado as informações são atualizadas._]
+
+
+## Requisitos Funcionais:
+
+[RF001] Cadastro de Pacientes
+• O sistema deve permitir que o registrador cadastre novos pacientes maiores de 18 anos e também deve permitir ao paciente se auto cadastrar.
 Para o cadastro as seguintes informações são obrigatoriamente necessárias: Nome completo do paciente, data de nascimento e CPF.
-Informações opcionais: Telefone(s) para contato, e-mail, código postal, endereço.
-Prioridade: Alta 
-Fonte Responsável: Desenvolvedor 
+• Informações opcionais: Telefone(s) para contato, e-mail, código postal, endereço.
+• Prioridade: Alta
+• Fonte Responsável: Desenvolvedor 
 
-[RF002] Cadastro de Dependentes 
-O sistema deve permitir que o registrador e um paciente maior de 18 anos cadastrem pacientes menores de 18 anos como dependentes. 
-Para o cadastro de dependentes as seguintes informações são obrigatoriamente necessárias: Nome completo do dependente, data de nascimento do dependente e CPF do responsável. No final do cadastro os dados do dependente são linkados ao do paciente responsável cadastrado [RF001]. 
-Prioridade: Alta 
-Fonte Responsável: Desenvolvedor 
+[RF002] Cadastro de Dependentes
+• O sistema deve permitir que o registrador e um paciente maior de 18 anos cadastrem pacientes menores de 18 anos como dependentes. 
+Para o cadastro de dependentes as seguintes informações são obrigatoriamente necessárias: Nome completo do dependente, data de nascimento do dependente e CPF do responsável. No final do cadastro os dados do dependente são linkados ao do paciente responsável cadastrado [RF001].
+• Prioridade: Alta
+• Fonte Responsável: Desenvolvedor 
 
-[RF003] Efetivação de cadastro de paciente 
-O sistema deve gerar uma senha única para o paciente cadastrado [RF001]. 
-Prioridade: Alta 
-Fonte Responsável: Desenvolvedor 
+[RF003] Efetivação de cadastro de paciente
+• O sistema deve gerar uma senha única para o paciente cadastrado [RF001].
+• Prioridade: Alta
+• Fonte Responsável: Desenvolvedor 
 
-[RF004] Editar Cadastro de Paciente 
-O sistema deve permitir ao paciente editar seus dados com exceção do CPF. 
-Prioridade: Alta 
-Fonte Responsável: Desenvolvedor 
+[RF004] Editar Cadastro de Paciente
+• O sistema deve permitir ao paciente editar seus dados com exceção do CPF.
+• Prioridade: Alta
+• Fonte Responsável: Desenvolvedor 
 
-[RF005] Cadastro de Vacinas 
-O sistema deve permitir que o administrador geral e o administrador de secretaria cadastrarem novas vacinas.
-As seguintes informações são obrigatoriamente necessárias: Identificador único da vacina (fornecido pelo ministério da saúde), nome da vacina, grupo alvo e faixa etária da vacina (de acordo com o calendário nacional de vacinação).
-Prioridade: Alta 
-Fonte Responsável: Desenvolvedor 
+[RF005] Cadastro de Vacinas
+• O sistema deve permitir que o administrador geral e o administrador de secretaria cadastrarem novas vacinas.
+• As seguintes informações são obrigatoriamente necessárias: Identificador único da vacina (fornecido pelo ministério da saúde), nome da vacina, grupo alvo e faixa etária da vacina (de acordo com o calendário nacional de vacinação).
+• Prioridade: Alta
+• Fonte Responsável: Desenvolvedor 
 
-[RF006] Cadastro de Funcionários 
-O sistema deve permitir o cadastro de administradores gerais, administradores de secretaria, registradores e agentes de saúde.
-Para cadastrar funcionários as seguintes informações são obrigatoriamente necessárias: Nome Completo, CPF, Data de Nascimento.
-Informações Opcionais: Telefone para contato, e-mail, código postal e endereço.
-Prioridade: Alta 
-Fonte Responsável: Desenvolvedor 
+[RF006] Cadastro de Funcionários
+• O sistema deve permitir o cadastro de administradores gerais, administradores de secretaria, registradores e agentes de saúde.
+• Para cadastrar funcionários as seguintes informações são obrigatoriamente necessárias: Nome Completo, CPF, Data de Nascimento.
+• Informações Opcionais: Telefone para contato, e-mail, código postal e endereço.
+• Prioridade: Alta
+• Fonte Responsável: Desenvolvedor 
 
-[RF007] Efetivação de Cadastro de funcionário  
-O sistema deve gerar uma senha única para o funcionário cadastrado [RF005]. 
-Prioridade: Alta 
-Fonte Responsável: Desenvolvedor 
+[RF007] Efetivação de Cadastro de funcionário
+• O sistema deve gerar uma senha única para o funcionário cadastrado [RF005].
+• Prioridade: Alta
+• Fonte Responsável: Desenvolvedor 
 
-[RF008] Registrar Vacinação 
-O sistema deve permitir ao agente de saúde registrar no sistema a vacina tomada pelo paciente. 
-Para registrar a vacina tais informações são necessárias: CPF cadastrado do paciente [RF001], CPF cadastrado do agente de saúde, identificador da vacina cadastrada [RF004], senha do agente de saúde [RF006]. 
-Prioridade: Alta 
-Fonte Responsável: Desenvolvedor 
+[RF008] Registrar Vacinação
+• O sistema deve permitir ao agente de saúde registrar no sistema a vacina tomada pelo paciente.
+• Para registrar a vacina tais informações são necessárias: CPF cadastrado do paciente [RF001], CPF cadastrado do agente de saúde, identificador da vacina cadastrada [RF004], senha do agente de saúde [RF006].
+• Prioridade: Alta
+• Fonte Responsável: Desenvolvedor 
 
-[RF009] Cadastrar Campanha 
-O sistema deve permitir que o Administrador Geral e o Agente de Saúde cadastrem uma campanha. 
-Para o cadastro de campanha as seguintes informações são obrigatoriamente necessárias: Nome da campanha, Data de inicio e término da campanha, identificador único da vacina, nome da vacina [RF004], grupo alvo e faixa etária [RF004], região onde a campanha será realizada. 
-Prioridade: Alta 
-Fonte Responsável: Desenvolvedor 
+[RF009] Cadastrar Campanha
+• O sistema deve permitir que o Administrador Geral e o Agente de Saúde cadastrem uma campanha. 
+• Para o cadastro de campanha as seguintes informações são obrigatoriamente necessárias: Nome da campanha, Data de inicio e término da campanha, identificador único da vacina, nome da vacina [RF004], grupo alvo e faixa etária [RF004], região onde a campanha será realizada.
+• Prioridade: Alta
+• Fonte Responsável: Desenvolvedor 
  
-[RF010] Histórico de Vacinas 
-O sistema de permitir a visualização do histórico de vacinas tomadas pelo paciente. 
-Prioridade: Alta 
-Fonte Responsável: Desenvolvedor 
+[RF010] Histórico de Vacinas
+• O sistema de permitir a visualização do histórico de vacinas tomadas pelo paciente.
+• Prioridade: Alta
+• Fonte Responsável: Desenvolvedor 
 
-[RF011] Editar Campanha  
-O sistema deve permitir que o administrador geral e o agente de saúde editem uma campanha. 
-Prioridade: Alta 
-Fonte Responsável: Desenvolvedor 
+[RF011] Editar Campanha
+• O sistema deve permitir que o administrador geral e o agente de saúde editem uma campanha.
+• Prioridade: Alta
+• Fonte Responsável: Desenvolvedor 
 
-[RF012] Deletar Campanha  
-O sistema deve permitir que o administrador geral delete uma campanha. 
-Prioridade: Alta 
-Fonte Responsável: Desenvolvedor 
+[RF012] Deletar Campanha
+• O sistema deve permitir que o administrador geral delete uma campanha.
+• Prioridade: Alta
+• Fonte Responsável: Desenvolvedor 
 
-[RF013] Deletar Vacina 
-O sistema deve permitir que o administrador geral delete uma vacina. 
-Prioridade: Alta 
-Fonte Responsável: Desenvolvedor 
+[RF013] Deletar Vacina
+• O sistema deve permitir que o administrador geral delete uma vacina.
+• Prioridade: Alta
+• Fonte Responsável: Desenvolvedor 
 
-[RF014] Alerta de Vacina 
-O sistema deve emitir um alerta de vacina para o paciente. 
-Prioridade: Alta 
-Fonte Responsável: Desenvolvedor 
+[RF014] Alerta de Vacina
+• O sistema deve emitir um alerta de vacina para o paciente.
+• Prioridade: Alta
+• Fonte Responsável: Desenvolvedor 
+
+[RF015] Ajuda(FAQ)
+• O sistema deve possuir um sistema de ajuda onde mostrá as perguntas mais feitas e suas respostas.
+• Prioridade: Alta
+• Fonte Responsável: Desenvolvedor
+
+[RF016] Editar Paciente
+O sistema deve permitir que o registrador e o paciente possam editar informações do paciente.
+Prioridade: Alta
+Fonte Responsável: Desenvolvedor
+
+[RF017] Deletar Paciente
+O sitema deve permitir que o administrador geral delete um cadastro de paciente.
+Prioridade: Alta
+Fonte Responsável: Desenvolvedor
 
 
 
 ## 5. Requisitos Futuros (RFUT)
 ---------------------------------
 
-_Descrever os requisitos que poderão ser especificados em uma nova versão do produto._
-
-| Ref.|   Descrição | Caso de Uso |
-|-------|------------|---------------|
-| [_RFUT1_] | [_Em um futuro próximo o software de atendimento de clientes deverá ser integrado com o software do sistema de faturamento para que o atendente possa identificar o perfil de negócios do cliente_] | [_CSUx_] |
+| Ref.|   Descrição |
+|-------|------------|
+| [RFUT1] | Em um futuro próximo o software deverá fazer atualizações de banco de dados anuais, onde pacientes que não utilizem o sistema por mais de 12 meses são automaticamente deletados |
 
 
 ## 6. Referências cruzadas complementares 
 ---------------------------------------------
 
-_Nesta seção são colocadas algumas referências cruzadas que podem ajudar o rastreamento futuro dos requisitos. Estes mapeamentos podem ser feitos em forma de matrizes de rastreabilidade como mostram os exemplos a seguir:_
-
 |Requisitos Funcionais | Requisitos Não-Funcionais|
 |---------------------|--------------------------|
-|[_Colocar identificação do requisito funcional_] | [_Colocar a identificação do requisito não funcional vinculado_] |
+|[RF015] | [RNF001] |
+|[RF010] | [RNF002] |
+|[RF010] | [RNF003] |
+|[RF010] | [RNF005] |
+|[RF010] | [RNF009] |
+|[RF010] | [RNF010] |
+|[RF010] | [RNF015] |
 
-|Requisitos Funcionais | Origem do Requisito |
-|---------------------|--------------------------|
-| [_Colocar identificação dos requisitos funcionais_] | [_Colocar a origem do requisito. Pode ser uma entrevista, um questionário, ou outra técnica qualquer de elicitação de requisito aplicada._] |
-
-|Requisitos Não-Funcionais | Origem do Requisito |
-|---------------------|--------------------------|
-| [_Colocar identificação dos requisitos não-funcionais_] | [_Colocar a origem do requisito. Pode ser uma entrevista, um questionário, ou outra técnica qualquer de elicitação de requisito aplicada._] |
-
-| Casos de Uso | Origem do Caso de Uso |
-|---------------------|--------------------------|
-| [_Colocar a identificação do requisito funcional_] | 
-[_Colocar a origem do caso de uso. Pode ser uma entrevista, um questionário, ou outra técnica  qualquer de elicitação de requisito aplicada._] |
 
 ## 7. Aprovação Formal 
 ---------------------------------------------
 
-[_O EOR deve ser datado e assinado de acordo com a definição contida no MPD. O documento aprovado se torna uma baseline do projeto que passa a ser controlada pela Gerência de Configuração de Software._]
+![aprovaçãoformal](https://raw.githubusercontent.com/PedroDrim/UFG_PS_2015/master/Anexos/Assinaturas.jpg)
 
 ## 8. Bibliografia
 ---------------------------------------------
 
-_Detalhar todas as fontes de informação citadas no documento ou usadas de alguma forma para sua elaboração, incluindo título, autor, data, fonte de obtenção, órgão responsável pela publicação e qualquer outra informação que possa facilitar a localização e obtenção dessas fontes pelo leitor. Nesta seção cada fonte citada deve ser associada a um número identificador. Junto de cada citação deve ser colocada também uma explicação sucinta de como a fonte foi usada na elaboração do documento._
-_Referenciar todas as fontes de informações citadas no EOR, explicando o motivo de sua citação. Devem ser incluídos, por exemplo:_
-
-* [_Normas e Padrões utilizados;_]
-* [_Livros e artigos (autores, título, editora, páginas, volume, data e local da publicação, ISBN/ISSN, etc);_]
-* [_Manuais de outros Produtos._]
-
-_Por exemplo, vamos supor que para elaborar o documento XXX-EOR-001 foram usadas as orientações contidas no Meta-Modelo de Especificação de Objetivos e Requisitos (EOR). Então, nesta seção deveria aparecer o seguinte texto:_
-[_[1] Ronaldo Lopes de Oliveira, EOR – Modelo de Documento de Especificação de Objetivos e Requisitos de Software, Versão 2.0, abril de 2014._]
-[_Meta-Modelo usado como guia para definição do formato e conteúdo deste documento._]
-
+[1] Ronaldo Lopes de Oliveira, EOR – Modelo de Documento de Especificação de Objetivos e Requisitos de Software, Versão 2.0, abril de 2014.
+Meta-Modelo usado como guia para definição do formato e conteúdo deste documento.
 
 
 ## 9. Anexos 
----------------------------------------------
-[_Anexar ao EOR documentos considerados importantes para sua compreensão. Por exemplo, documentos e leis usadas na especificação dos requisitos podem ser colocados nos anexos para facilitar o acesso do leitor às fontes dos requisitos do software. Cada anexo deverá receber uma folha de rosto indicando seu conteúdo._]
+
+https://github.com/PedroDrim/UFG_PS_2015/blob/master/Templates/%5BTemplate%5D%20Documento%20de%20Especifica%C3%A7%C3%A3o%20de%20Requisitos.md
