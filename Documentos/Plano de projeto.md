@@ -26,7 +26,7 @@ Processo de software 2015, Plano de Projeto
     * 5.1. [Estrutura de Projeto](#51-estrutura-de-projeto)
     * 5.2. [Armazenamento de Artefatos](#52-armazenamento-de-artefatos)
     * 5.3. [Metricas de Acessibilidade](#53-metricas-de-acessibilidade)
-* 6. [Monitoramento](#6-monitoramento)
+* 6. [Monitoramento de riscos](#6-monitoramento-de-riscos)
 * 7. [Manutenção](#7-manutenção)
 * 8. [Aprovação formal](#6-aprovação-formal)
 
@@ -270,7 +270,7 @@ Os artefatos produzidos durante o desenvolvimento do produto deverão ser acessa
 ### 5.3 Metricas de Acessibilidade
 Cada membro responsável por uma área deverá modificar apenas os artefatos referentes a tal área específica, conforme o [Plano de gerência de configuração](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Documentos/Plano%20de%20Ger%C3%AAncia%20de%20configura%C3%A7%C3%B5es.md).
 
-6. Monitoramento
+6. Monitoramento de riscos
 ----------------
 
 Todos os artefatos do projeto deverão ser ter suas modificações monitoradas bem como os custos esperados e os recursos humanos e os interessados.
@@ -284,11 +284,12 @@ Os interessados também deverão ser informados das modificações. Para auxilia
 
 Todos os problemas identificados durante o projeto deverão ser monitorados e acompanhados até a sua conclusão. Para auxiliar a manutenção, um relatório contendo a ocorrência dos erros deverá existir sendo feito com base no [template de manutenção](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Templates/%5BTemplate%5D%20Relat%C3%B3rio%20de%20manuten%C3%A7%C3%A3o.md)
 
-[_Linkar os relatórios de manutenção._]
+[Relatório de manutenção](https://github.com/PedroDrim/UFG_PS_2015/blob/master/Documentos/Relat%C3%B3rio%20de%20manuten%C3%A7%C3%A3o.md)
 
 8. Aprovação formal
 ----------------------------
-A aprovação do plano de projeto deverá ser realizada junto aos clientes e/ou stakeholders envolvidos no projeto.
+Aprovação do plano de projeto por todos os integrantes do grupo.
 
+![Assinaturas](https://raw.githubusercontent.com/PedroDrim/UFG_PS_2015/master/Anexos/Assinaturas.jpg)
 
 
