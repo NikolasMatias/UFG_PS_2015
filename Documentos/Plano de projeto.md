@@ -10,8 +10,9 @@ Processo de software 2015, Plano de Projeto
     * 1.2. [Estratégia Organizacional](#12-estratégia-organizacional)
     * 1.3. [Artefatos Esperados](#13-artefatos-esperados)
     * 1.4. [Detalhamento dos Artefatos](#14-detalhamento-dos-artefatos)
-    * 1.5. [Detalhamento do Ciclo de Vida](#15-detalhamento-do-Ciclo-de-Vida)
-    * 1.6. [Estimativa de esforço](#16-estimativa-de-esforço)
+    * 1.5. [Estudo de viabilidade](#15-estudo-de-viabilidade)
+    * 1.6. [Detalhamento do Ciclo de Vida](#16-detalhamento-do-ciclo-de-vida)
+    * 1.7. [Estimativa de esforço](#17-estimativa-de-esforço)
 * 2. [Custo do Projeto](#2-custo-do-projeto)
     * 2.1. [Cronograma](#21-cronograma)
     * 2.2. [Recursos](#22-recursos)
@@ -20,7 +21,7 @@ Processo de software 2015, Plano de Projeto
     * 3.1. [Métricas de Risco](#31-métricas-de-risco)
     * 3.2. [Tipos de Riscos](#32-tipos-de-riscos)
 * 4. [Recursos Humanos](#4-recursos-humanos)
-    * 4.1. [Responsábilidades](#41-responsábilidades)
+    * 4.1. [Responsábilidades](#41-responsabilidades)
     * 4.2. [Riscos em RH](#42-riscos-em-rh)
 * 5. [Detalhamento de Projeto](#5-detalhamento-de-projeto)
     * 5.1. [Estrutura de Projeto](#51-estrutura-de-projeto)
@@ -28,7 +29,7 @@ Processo de software 2015, Plano de Projeto
     * 5.3. [Metricas de Acessibilidade](#53-metricas-de-acessibilidade)
 * 6. [Monitoramento de riscos](#6-monitoramento-de-riscos)
 * 7. [Manutenção](#7-manutenção)
-* 8. [Aprovação formal](#6-aprovação-formal)
+* 8. [Aprovação formal](#8-aprovação-formal)
 
 1. Escopo de Projeto
 ---------------------
@@ -55,41 +56,53 @@ No desenvolvimento de projetos pela organização deverá haver os artefatos a c
 ![EAP](https://raw.githubusercontent.com/PedroDrim/UFG_PS_2015/master/Anexos/EAP.png)
 
 ### 1.4 Detalhamento dos Artefatos
+O grau de importância de um artefato é dado pelo produto entre o __grau da atividade executada__ e __grau da fase do ciclo de vida__ em que é gerada.
 
-O artefato gerado durante a atividade de planejamento da gerência de projeto é o **Plano de projeto**:
+* Tabela para classificação com base no grau da atividade executada:
 
-Este artefato é responsável por definir cronogramas e custos esperados durante o projeto, bem como definir o ciclo de vida utilizado e especificar quais artefatos serão esperados em cada etapa.
+ Grau da atividade | Nome | Valor 
+------------------|------|------
+Execução / Procedimentos | Baixo | 1
+Planejamento | Alto | 2
 
-Os artefatos gerados durante a atividade de procedimentos da gerência de projeto são os **Relatórios de riscos** e **Relatórios de manutenção**:
+* Tabela para classificação com base no grau da fase do ciclo de vida:
 
-O **relatório de risco** é responsável por armazenar quaisquér ocorrencia de riscos esperados, bem como as técnicas utilizadas para contornar a situação, quais as áreas afetadas por esse risco e quais os seus responsáveis.
+Etapa | Ciclo de vida | Nome | Valor
+------|--------------|------|------
+1     | Levantamento e detalhamento de requisitos | Alto | 4
+2     | Definição de arquitetura | Medio | 3
+3     | Detalhamento baixo nível | Medio | 3
+4     | Construção | Baixo | 2
 
-O **relatório de manutenção** é responsável por armazenar quaisquér mudanças nos artefatos gerados (correções de não-conformidade, adequações de textos, correções de links), bem como as áreas afetadas por essa modificação e quais os seus responsáveis.
+* Tabela para classificação de grau de importância (resultado):
 
+ Métrica (produto entre as métricas anteriores) | Nome
+------------------|------
+Apenas __8__ | Alto
+Entre __4 e 6__ | Médio
+Entre __2 e 3__ | Baixo   
 
-O artefato gerado durante a atividade de planejamento da garantia de qualidade é o **Processo de garantia de qualidade**:
+Os artefatos gerados em cada etapa do ciclo de vida são definidos abaixo:
 
-Este artefato é responsável por definir como será feita a garantia da qualidade nos artefatos selecionados.
+Nome do artefato | Nome da atividade | Funcionalidade | Grau de importância
+-----------------|-------------------|----------------|---------------------
+**Plano de projeto** | planejamento da gerência de projeto | Este artefato é responsável por definir cronogramas e custos esperados durante o projeto, bem como definir o ciclo de vida utilizado e especificar quais artefatos serão esperados em cada etapa. | 8
+**Relatórios de riscos** | procedimentos da gerência de projeto | responsável por armazenar quaisquér ocorrencia de riscos esperados, bem como as técnicas utilizadas para contornar a situação, quais as áreas afetadas por esse risco e quais os seus responsáveis. | 4
+**Relatórios de manutenção** | procedimentos da gerência de projeto | responsável por armazenar quaisquér mudanças nos artefatos gerados (correções de não-conformidade, adequações de textos, correções de links), bem como as áreas afetadas por essa modificação e quais os seus responsáveis. | 4
+**Processo de garantia de qualidade** | planejamento da garantia de qualidade | responsável por definir as métricas e métodos utilizados para avaliação da qualidade dos artefatos selecionados. | 8
+**Checklist de garantia de qualidade** | procedimento da garantia de qualidade | responsável por verificar e validar os artefatos selecionados, assim como especificar quais não-conformidades foram encontradas. | 4
+**Plano de gerência de configuração** | planejamento da gerencia de configuração | responsável por definir como será feita a nomenclatura e a organização dos objetos que compõem o projeto, bem como as formas de armazenamento e acessibilidade. | 8
+**Notas de release** | execução da gerência de configuração | responsável por compilar as modificações ocorridas no software de um marco para outro de forma a explicar para o usuário, de forma simples, quais as modificações que ocorreram durante o antamento do projeto. | 4
+**Código-fonte** | execução da construção | Este artefato deverá conter o código do produto, de forma que fique de acordo com o definido pela equipe de requisitos. | 2
 
-O artefato gerado durante a atividade de procedimentos da garantia de qualidade são os **Checklist de garantia de qualidade**:
+### 1.5 Estudo de viabilidade
+Antes da execução do projeto, deverá ser realizada um estudo de viabilidade de forma a verificar a aceitação do projeto no com base na necessidade e recursos da empresa.
 
-Este artefato é responsável por verificar e validar os artefatos selecionados, assim como especificar quais não-conformidades foram encontradas.
+Devido ao ambito acadêmico, este projeto foi considerado viável, entretanto não ocorrerão as etapas de levantamento arquitetural e codificação.
 
+Um estudo de viabilidade também deverá ocorrer para a [manutenção](#7-manutenção) de artefatos gerados, conforme as métricas definidas para [esforço](#17-estimativa-de-esforco).
 
-O artefato gerado durante a atividade de planejamento da gerencia de configuração é o **Plano de gerência de configuração**:
-
-Este artefato é responsável por definir como será feita a nomenclatura e a organização dos objetos que compõem o projeto, bem como as formas de armazenamento e acessibilidade.
-
-O artefato gerado durante a atividade de execução da gerência de configuração são as **Notas de release**:
-
-Este artefato é responsável por compilar as modificações ocorridas no software de um marco para outro de forma a explicar para o usuário, de forma simples, quais as modificações que ocorreram no software.
-
-
-O artefato gerado durante a atividade de execução da construção é o **Código-fonte**:
-
-Este artefato deverá conter o código do produto, de forma que fique de acordo com o definido pela equipe de requisitos.
-
-### 1.5 Detalhamento do Ciclo de Vida
+### 1.6 Detalhamento do Ciclo de Vida
 O ciclo de vida definido para este plano é o __ciclo de vida em V__ a sua estruturação no projeto será realizada da seguinte maneira:
 
 Etapa | Ciclo de vida
@@ -114,7 +127,7 @@ Etapa | Ciclo de vida
 * __Durante a execução:__ Esta etapa ocorrerá simultaneamente com as outras etapas.
    * __Artefatos gerados durante a execução:__ Checklist de garantia de qualidade, relatórios de riscos e relatórios de manutenção.
 
-### 1.6 Estimativa de esforço
+### 1.7 Estimativa de esforço
 O esforço gasto em uma atividade é definida com base no __tempo__ gasto em média, o __custo__ gasto para equipamentos e preparo; e com o tamanho e tipo do __escopo__ da atividade a ser realizada. O calculo para definir o esforço é realizado conforme a tabela abaixo:
 
 * Tabela para classificação com base no tempo:
@@ -177,6 +190,13 @@ Nome | Finalidade
 [Visual Studio Code](https://code.visualstudio.com/) / [Atom](https://atom.io/) / [Sublime text](http://www.sublimetext.com/3) | Edição de códigos
 [Skype](http://www.skype.com/pt-br/download-skype/skype-for-computer/) / [Hangout](https://plus.google.com/u/0/) | Reuniões.
 [Android Studio](http://developer.android.com/intl/pt-br/sdk/index.html) / [Eclipse](https://eclipse.org/downloads/) | Ide's
+[Trello](https://trello.com/) | Ferramenta para definição de atividades do projeto
+
+Nesse software os computadores utilizados deverão possuir as sguintes configurações:
+
+* Sistema operacional: Windows acima ou igual ao 7, Linux mint acima ou igual ao 15.
+* Acesso a internet.
+* Minimo 2gb RAM.
 
 ### 2.3 Pontos de controle
 
@@ -229,20 +249,24 @@ identificador | Nome | Prioridade | Forma de contingência
 R1 | Equipamento defeituoso | Média/Alto | Deverá ser realizado uma realocação dos recursos
 R2 | Falta de Energia | Média/Alto | Não há como proceder
 R3 | Falta de Internet | Média/Alto | O projeto deverá continuar sendo feito em offline
+R4 | Membro doente | Média/Alto | O escopo do projeto deverá ser refatorado
+R5 | Auêencia de um membro | Média/Alto | O escopo do projeto deverá ser refatorado
 
 4. Recursos Humanos
 -------------------
 
-### 4.1 Responsábilidades
+### 4.1 Responsabilidades
 
            Nome             |            Papel           | Responsável por | Competências
 -----------------------------|----------------------------|--------------|---------
-Pedro Henrique Silva Farias    | Gerente de configuração     | Estruturar a estrutura e definir métodos de acesso ao repositório | Aluno do 6* Periodo de Eng. de Software
+Pedro Henrique Silva Farias    | Gerente de configuração / Gerente de projetos     | Estruturar a estrutura e definir métodos de acesso ao repositório | Aluno do 6* Periodo de Eng. de Software
 Rony Nogueira  | Gerente de Projetos    | Verificar se o plano de projeto está sendo aplicado corretanmente     | Aluno do 4* Periodo de Eng. de Software
 Milton Araújo   | Gerente de Requisitos          | Levantar e gerenciar os requisitos   | Aluno do 6* Periodo de Eng. de Software
 Thallisson Lopes     | Analista de Requisitos | Levantar e anaisar os requisitos     | Aluno do 4* Periodo de Eng. de Software
 Matheus Lima          | Gerente de qualidade          | Gerar e executar checklists para garantia de qualidade     | Aluno do 6* Periodo de Eng. de Software
 Nikolas Mathias     | Gerente de qualidade | Gerar e executar checklists para garantia d qualidade     | Aluno do 6* Periodo de Eng. de Software
+
+Caso algum membro não demonstre a devida competência em sua área, o membro deverá ser submetido por um treinamento durante a execução do projeto. O treinamento consistira em uma explicação breve sobre o sistema que será desenvolvido e a área definida além de ser ministrado por outro integrante do grupo da mesma área. 
 
 ### 4.2 Riscos em RH
 
